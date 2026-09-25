@@ -1,0 +1,274 @@
+msg.lui.inventory.actions.rename.tooltip	重命名此项
+msg.lui.inventory.actions.rename	重命名(_A)...
+msg.lui.inventory.actions.remove.tooltip	移除此项
+msg.lui.inventory.actions.remove	移除(_O)
+msg.lui.inventory.actions.newFolder.tooltip	创建新文件夹
+msg.lui.inventory.actions.newFolder	新建文件夹(_D)
+msg.lui.inventory.actions.expand.tooltip	展开此文件夹
+msg.lui.inventory.actions.expand	展开(_E)
+msg.lui.inventory.actions.collapse.tooltip	折叠此文件夹
+msg.lui.inventory.actions.collapse	折叠(_C)
+msg.lui.wizard.shareVM.vmName.lengthWarning	虚拟机名称长度不能超过 %d 个字符。
+msg.lui.aboutDlg.error.missingSupportScript	在此系统上找不到 vmware-collect-host-support-info 脚本。将不会收集支持数据。
+msg.lui.error.unknown	发生未知错误
+msg.lui.dlgViewCertificate.title	查看证书
+msg.lui.dlgCertificateCheck.alwaysTrust	始终信任使用此证书的主机(_A)
+msg.lui.dlgCertificateCheck.title	安全证书无效
+msg.lui.dlgCertificateCheck.header	您要连接的服务器提供的安全证书存在以下问题：
+msg.lui.dlgCertificateCheck.footer	要忽略这些问题并继续吗？
+msg.lui.softwareUpdates	软件更新
+msg.lui.downloadProgress.details	详细信息(_D)
+msg.lui.downloadProgress.serverServer	更新服务器：
+msg.lui.downloadProgress.serverProxy	代理服务器：
+msg.lui.downloadProgress.serverStatus	连接状态：
+msg.lui.downloadPrompt	软件更新
+msg.lui.downloadPrompt.request	可以下载以下软件：
+msg.lui.downloadPrompt.version.format	%s 版本 %s
+msg.lui.dlgDownloadPrompt.learnMore	了解详情
+msg.lui.downloadPrompt.cont	要执行什么操作？
+msg.lui.downloadProxyPrompt.save	保存用户名和密码(_S)
+msg.lui.downloadProxyPrompt	软件更新
+msg.lui.downloadProxyPrompt.request.credentialsFailed	输入的代理凭据不正确。\n\n请输入代理凭据，以便 %s 检查更新并下载组件。
+msg.lui.downloadProxyPrompt.request	请输入代理凭据，以便 %s 检查更新并下载组件。
+msg.lui.downloadProxyPrompt.proxy	代理：
+msg.lui.dlgDownloadProxyPrompt.no_proxy	(无)
+msg.lui.downloadProxyPrompt.username	用户名(_U)：
+msg.lui.downloadProxyPrompt.password	密码(_P)：
+msg.lui.dlgPassword.title.setPassword	设置密码
+msg.lui.inventorybrowser.title	选择库节点
+msg.lui.dlgPassword.title.enterPassword	输入密码
+msg.lui.dlgPassword.title.changePassword	更改密码
+msg.lui.downloadJobMgr.showDialog	查看下载(_D)
+msg.lui.downloadJobMgr.hideDialog	隐藏下载(_D)
+msg.lui.downloadJobMgr.shutdown.cantQuit	仍在下载时无法退出。请取消所有下载，然后重试。
+msg.lui.downloadVMDlg.title	下载虚拟机
+msg.lui.downloadVMDlg.savePath	浏览下载的虚拟机位置
+msg.lui.downloadVMDlg.download	下载(_D)
+msg.lui.downloadVMDlg.emptyPath	未指定目标位置。
+msg.lui.downloadVMDlg.pathExists	位置“%s”已存在。
+msg.lui.encryptionUnlock.enterPassword	输入密码
+msg.lui.encryptionUnlock.enterPasswordDesc	此虚拟机已加密。\n必须输入其密码才能继续。
+msg.lui.encryptionUnlock.password	密码(_P)：
+msg.lui.fileEntry.keepInvalidPath	指定的路径无效或不存在。是否仍要保留此设置？
+msg.lui.fullscreenMgr.noMultiMon.badWM	当前主机窗口管理器不支持多个显示器。
+msg.lui.gosSelector.customKey	自定义 (%s)
+msg.lui.import.title	导入虚拟机
+msg.lui.import.mustConvertFmt	必须将 %s 转换为 %s 虚拟机，才能在 %s 中使用。
+msg.lui.import.savePath	浏览导入的虚拟机位置
+msg.lui.libsecret.removePassword.failureFmt	移除 %s 的密码失败：%s
+msg.lui.savedLogin.label	VMware 保存的登录信息：%s
+msg.lui.libsecret.savePassword.failureFmt	存储 %s 的密码失败：%s
+msg.lui.libsecret.encryptedVM.labelFmt	VMware 加密虚拟机：%s
+msg.lui.libsecret.getPassword.failureFmt	检索 %s 的密码失败：%s
+msg.lui.mksScreenWin.windowTitleFormat	%s - 屏幕 %d
+msg.lui.removableDevices.title	可移动设备
+msg.lui.removabledDevices.connectedToVM	%s (已连接到 %s)
+msg.lui.removableDevices.devsAvailableAtPowerOn.ws	可以使用状态栏或选择“虚拟机”>“可移动设备”将以下设备连接到此虚拟机：
+msg.lui.removableDevices.devsAvailableAtPowerOn.player	可以使用状态栏或选择“设备”菜单将以下设备连接到此虚拟机：
+msg.lui.removableDevices.disclaimer	每个设备一次只能连接到主机或一台虚拟机。
+msg.lui.removableDevices.disclaimerSCR	每个设备一次只能连接到主机或一台虚拟机。智能卡读卡器可以连接到多台虚拟机。
+msg.lui.removableDevices.devsDisconnected	(设备正在重新连接或已从主机拔出)
+msg.lui.removableDevices.devsHintAtPowerOn.accel	启动虚拟机时不再显示此提示(_N)
+msg.lui.removableDevices.devsHintAfterPowerOn.accel	有新设备可用时不再显示此内容(_N)
+msg.lui.toolsMgr.NoUpdatesFound	目前没有可用的软件更新。
+msg.lui.toolsMgr.promptTryAnyway.title	软件更新
+msg.lui.toolsMgr.fetchAllDone	所有可下载组件均为最新版本。
+msg.lui.chooseImage	选择映像
+msg.lui.install.confirm	单击 %s 将 %s 安装光盘连接到虚拟机。\n\n%s
+msg.lui.install.onlyOpenVMTools	FreeBSD 的 VMware Tools 基于 Perl 的安装程序已停止提供。仅可通过 FreeBSD 软件包存储库直接提供的 open-vm-tools 软件包支持 FreeBSD 系统。
+msg.lui.install.noCDROM	虚拟机需要虚拟 CD/DVD 设备才能安装 %s。
+msg.lui.install.easyInstalling	简易安装进行期间无法手动启动 %s 安装。
+msg.lui.install.downloading	当前下载完成之前无法启动 %s 安装。
+msg.lui.install.warningTools	如果未下载最新版本的 %s，将安装现有版本。
+msg.lui.install.warningNoTools	如果未下载 %s，安装将无法继续。
+msg.lui.install.altWarning	您的计算机上未找到此虚拟机的 %s。安装将无法继续。
+msg.lui.vm.virtualprinter.failinstall	无法在此虚拟机上安装虚拟打印机：%s
+msg.lui.remDevice.connectToClient	_%d. 连接到 %s
+msg.lui.remDevice.connectToClientAutodetect	_%d. 连接到 %s (自动检测)
+msg.lui.remDevice.chooseImageISO	连接到磁盘映像文件 (iso)...
+msg.lui.remDevice.chooseImageFloppy	连接到磁盘映像文件 (flp)...
+msg.lui.remDevice.chooseImage	连接到磁盘映像文件(_F)...
+msg.lui.remDevice.remote.disconnectThisClient	断开 %s 的连接(_D)
+msg.lui.remDevice.remote.disconnectUnknownDevOnOtherClient	断开另一个控制台中的设备(_D)
+msg.lui.remDevice.remote.disconnectDevOnOtherClient	断开另一个控制台中的 %s(_D)
+msg.lui.remDevice.remote.disconnectServerUnknownDevice	断开服务器上的设备(_D)
+msg.lui.remDevice.remote.disconnectServerDevice	断开服务器上的 %s(_D)
+msg.lui.remDevice.remote.connectedToServerUnknownDevice	(已连接到服务器上的设备)
+msg.lui.remDevice.remote.connectedToServer	(已连接到服务器上的 %s)
+msg.lui.remDevice.remote.disconnectFromHost	(已断开连接)
+msg.lui.remDevice.remote.connectToServerUnknownDevice	连接到服务器上的设备(_C)
+msg.lui.remDevice.remote.connectToServer	连接到服务器上的 %s(_C)
+msg.lui.vm.virutalprinter.notsupport	此虚拟机不支持虚拟打印机。\n
+msg.lui.exportVM.pathNotWritable	您没有写入位置“%s”的权限。请选择其他位置。
+msg.lui.vm.exportErrorFmt	导出失败：%s。
+msg.lui.errorConnectingRemote	连接远程设备时出错：%s
+msg.lui.remoteDeviceError	远程设备错误：%s
+msg.lui.errorWhileModifyingPeriod	修改设备时出错：%s。
+msg.lui.vmLedMgr.disconnected	已断开连接
+msg.lui.vmLedMgr.connected	已连接
+msg.lui.vmUsersDlg.vncConnections.title	VNC 连接：%s
+msg.lui.device.audio.deviceType	音频设备
+msg.lui.device.cdrom.deviceType	CD/DVD
+msg.lui.device.cdrom.fileDescription	ISO 映像文件
+msg.lui.device.floppy.deviceType	软盘
+msg.lui.device.floppy.fileDescription	软盘映像文件
+msg.lui.multiBackend.location	位置(_L)：
+msg.lui.multiBackend.local	本地客户机
+msg.lui.multiBackend.remote	远程服务器
+msg.lui.multiBackend.session	本地(单个会话)
+msg.lui.multiBackend.persist	本地(跨会话)
+msg.lui.multiBackend.console	在另一个控制台上
+msg.lui.multiBackend.persistWarning	跨会话连接文件仅对“共享虚拟机”目录中的文件有效。
+msg.lui.device.genericSCSI.deviceType	通用 SCSI
+msg.lui.device.nic.noEmptyCustom	自定义网络不能为空。
+msg.lui.device.nic.invalidCustomInput	网络“%s”与列表中的任何可用项都不匹配。请从列表中选择有效的网络。
+msg.lui.device.nic.noEmptyPVN	必须选择 LAN 区段。
+msg.lui.device.parallel.deviceType	并行端口
+msg.lui.device.parallel.fileDescription	输出文件
+msg.lui.device.pipeBackend.unableToSaveSocket	无法保存 %s 设备：请指定套接字。
+msg.lui.device.pipebackend.client	客户机
+msg.lui.device.pipebackend.server	服务器
+msg.lui.device.pipebackend.application	应用程序
+msg.lui.device.pipebackend.vm	虚拟机
+msg.lui.device.pipebackend.from	来源(_M)： 
+msg.lui.device.pipebackend.to	目标(_T)： 
+msg.lui.device.serial.deviceType	串行端口
+msg.lui.device.serial.fileDescription	输出文件
+msg.lui.device.usb.xhciUSB3Win7Fmt	将 USB 设备与 USB 3.2 控制器配合使用可能需要在客户机中安装其他驱动程序。<a href="%s">为此虚拟机下载 USB 3.2 驱动程序。</a>
+msg.lui.device.usb.xhciGeneric	将 USB 设备与 USB 3.2 控制器配合使用可能需要在客户机中安装其他驱动程序。
+msg.lui.device.usb.cannotChange	此服务器上的 USB 控制器没有可配置的选项。
+msg.lui.device.usb.connections	连接
+msg.lui.device.usb.compatibility	USB 兼容性(_M)：
+msg.lui.device.usb.usb11	USB 1.1
+msg.lui.device.usb.usb20	USB 2.0
+msg.lui.device.usb.usb32	USB 3.2
+msg.lui.device.usb.autoConnect	自动连接新的 USB 设备(_U)
+msg.lui.device.usb.enableHID	显示所有 USB 输入设备(_W)
+msg.lui.inventory.containerView.button.listView.tooltip	切换到列表视图
+msg.lui.inventory.containerView.button.thumbnailView.tooltip	切换到缩略图视图
+msg.lui.inventory.folderListView.column.name	名称
+msg.lui.inventory.folderListView.column.status	状态
+msg.lui.inventory.folderListView.column.notes	备注
+msg.lui.inventory.actions.opendir.tooltip	显示文件夹中的虚拟机文件
+msg.lui.inventory.actions.opendir	打开虚拟机目录(_D)
+msg.lui.inventory.new	新建
+msg.lui.inventoryView.removeConfirm	要从库中移除“%s”吗？
+msg.lui.inventoryView.removePlusContentsConfirm	要从库中移除“%s”吗？\n\n这不会从磁盘删除虚拟机。
+msg.lui.inventoryView.removeOnlyVMConfirm	要从库中移除“%s”吗？
+msg.lui.inventoryView.removeVMConfirm	要从库中移除虚拟机“%s”，还是将其从磁盘删除？\n\n从磁盘删除无法撤销！
+msg.lui.inventoryView.deleteConfirm	要从磁盘删除虚拟机“%s”吗？\n\n从磁盘删除无法撤销！
+msg.lui.inventoryView.removeTeamConfirm	要从库中移除工作组“%s”，还是将其从磁盘删除？\n\n从磁盘删除无法撤销！
+msg.lui.inventory.searchBar.allItems	所有项目
+msg.lui.inventory.searchBar.poweredOn	已开机
+msg.lui.inventory.searchBar.favorites	收藏
+msg.lui.inventory.searchBar.typeToSearch	在此处输入以搜索
+msg.lui.inventory.searchBar.typeToSearch.tooltip	搜索虚拟机名称、备注和客户机操作系统类型
+msg.lui.ipc.connection.timeout	IPC 连接超时
+msg.lui.ipc.error.daemonPathNotFound	启动守护进程失败：找不到 %s
+msg.lui.addUser.userLoadError	无法加载用户：%s。
+msg.lui.addUser.server	(服务器)
+msg.lui.addUser.noUsers	未找到用户
+msg.lui.addUser.group	组
+msg.lui.addUser.user	用户
+msg.lui.addUser.title	添加用户或组
+msg.lui.addUser.domain	域(_D)：
+msg.lui.addUser.name	名称
+msg.lui.addUser.type	类型
+msg.lui.addUser.description	说明
+msg.lui.addUser.role	角色(_R)：
+msg.lui.editRoles.saveError	保存角色时出错：%s
+msg.lui.editRoles.duplicateRole	名称“%s”已被使用。
+msg.lui.editRoles.system	名称“%s”是系统保留的。
+msg.lui.editRoles.notEmpty	角色名称不能为空。
+msg.lui.editRoles.permissionError	加载角色时出错
+msg.lui.editRoles.newRole	新建角色
+msg.lui.editRoles.newRoleFmt	新建角色 (%d)
+msg.lui.editRoles.cloneFmt	%s 的克隆
+msg.lui.editRoles.cloneNumFmt	%s 的克隆 (%d)
+msg.lui.editRoles.clone	克隆(_C)
+msg.lui.editRoles.title	编辑角色
+msg.lui.editRoles.header	角色是一组命名的权限。
+msg.lui.editRoles.role	角色
+msg.lui.editRoles.name	名称(_N)：
+msg.lui.deleteRole.remove	移除受影响的权限(_R)
+msg.lui.deleteRole.reassign	将受影响的权限重新分配给(_A)：
+msg.lui.deleteRole.title	删除角色
+msg.lui.deleteRole.header	“%s”当前正被一个或多个权限使用。
+msg.lui.permissions.otherEditor	另一位用户当前正在编辑 %s 的权限。任何更改都会实时显示。
+msg.lui.permissions.loadError	无法加载权限：%s
+msg.lui.permissions.saveError	保存更改时出错：%s
+msg.lui.permissions.name	名称
+msg.lui.permissions.role	角色
+msg.lui.permissions.inherit	继承自
+msg.lui.permissions.editRoles	编辑角色(_E)...
+msg.lui.permissions.titleFmt	管理 %s 的权限
+msg.lui.permissions.header	通过分配角色允许或限制用户访问。
+msg.lui.editRole.allPrivileges	所有权限
+msg.lui.privilegesTree.defaultDesc	选择权限以查看其说明。
+msg.lui.vmsettings.advanced.templateMode.hwVersion	此选项不支持 %s 虚拟机。
+msg.lui.vmsettings.advanced.templateMode.rawDisk	此虚拟机正在使用物理磁盘，因此无法打开模板模式。
+msg.lui.vmsettings.advanced.vbsEnabled.detail	启用 VBS 还会启用 UEFI、安全启动、Intel VT-x/EPT 和 IOMMU。
+msg.lui.vmsettings.advanced.bios	BIOS
+msg.lui.vmsettings.advanced.secureBoot	启用安全启动
+msg.lui.proppage.advanced.monitorDefault	默认
+msg.lui.proppage.advanced.monitorNormal	无
+msg.lui.proppage.advanced.monitorDebug	全部
+msg.lui.proppage.advanced.monitorStats	统计信息
+msg.lui.vmsettings.advanced.efi	UEFI
+msg.lui.device.audio.cannotChange	远程连接不支持声音。
+msg.lui.autoprotect.text.intro	自动保护将保留一系列快照，以提供不同的还原选项：
+msg.lui.vmsettings.autoprotect.rawDisk	此虚拟机正在使用物理磁盘，因此无法使用自动保护。
+msg.lui.vmsettings.disk.unknown	未知
+msg.lui.vmsettings.disk.advanced.mode.snapshot	虚拟机具有快照，因此无法更改磁盘模式。
+msg.lui.vmsettings.snapshots.title	快照
+msg.lui.vmsettings.snapshot.rawDisk	此虚拟机正在使用物理磁盘，因此无法使用快照。
+msg.lui.datstoreCombo.noDSFound	未找到数据存储
+msg.lui.datastoreCombo.loading	正在加载数据存储...
+msg.lui.datastoreList.name	名称
+msg.lui.datastoreList.freeSpace	可用空间
+msg.lui.hostCombo.loading	正在加载主机...
+msg.lui.savePasswordInfoBar.rememberQuestion	要 %s 记住 %s 的登录信息吗？
+msg.lui.savePasswordInfoBar.changeQuestion	要更改 %s 的存储登录信息吗？
+msg.lui.widgets.setPassword.optional	(可选)
+msg.lui.widgets.setPassword.err.nonASCIIPassword	不允许使用指定的密码。\n\n密码只能包含 ASCII 字符(英文字母、数字和标点符号)。
+msg.lui.widgets.setPassword.err.passwordsDontMatch	输入的密码不匹配。
+msg.lui.widgets.setPassword.err.passwordEmpty	必须指定密码。
+msg.lui.widgets.setPassword.passwordLabel	密码(_P)：
+msg.lui.widgets.setPassword.confirmLabel	确认(_N)：
+msg.lui.vmNameLocationPicker.name	名称(_N)：
+msg.lui.vmNameLocationPicker.location	位置(_L)：
+msg.lui.vncLed.name	VNC 连接指示灯
+msg.lui.wizard.disk.permError	找不到本地磁盘。要配置物理磁盘，必须以 root 身份运行。
+msg.lui.wizard.disk.noidectlrs	此主机不支持较早虚拟机版本的 IDE 磁盘。
+msg.lui.wizard.vm.guestid.osNotSupported	%s 不支持 %s。
+msg.lui.wizard.shareVM.disksMounted	虚拟机的一个或多个磁盘已挂载在主机上。要共享虚拟机，请先卸载这些磁盘。
+msg.lui.wizard.unshare.loadingDone	虚拟机信息加载完成。
+msg.lui.wizard.unshare.loading	正在加载虚拟机配置信息
+msg.lui.wizard.upload.host	主机：
+msg.lui.wizard.upload.hostMnemonic	主机(_O)：
+msg.lui.wizard.upload.credentials	服务器凭据
+msg.lui.wizard.upload.username	用户名(_U)：
+msg.lui.wizard.upload.password	密码(_P)：
+msg.lui.wizard.upload.destNodeTitle	目标文件夹
+msg.lui.wizard.upload.nameTitle	虚拟机名称和位置
+msg.lui.wizard.upload.name	名称(_A)：
+msg.lui.wizard.upload.selectServer	目标服务器
+msg.lui.wizard.upload.title	虚拟机上载向导
+msg.lui.wizard.upload.hostname	主机名(_O)：
+msg.lui.wizard.upload.org	组织(_O)：
+msg.lui.wizard.upload.loadingHost	正在加载主机...
+msg.lui.wizard.upload.selectFolder	选择数据中心或文件夹
+msg.lui.wizard.upload.datastore	数据存储(_D)：
+msg.lui.upload.wizard.selectHost	正在等待主机...
+msg.lui.wizard.upload.catalog	目录(_T)：
+msg.lui.wizard.upload.vDC	vDC(_V)：
+msg.lui.dlgFirstTime.eula.accept	我接受许可协议中的条款(_A)。
+msg.lui.dlgFirstTime.eula.refuse	我不接受许可协议中的条款(_D)
+msg.lui.dlgFirstTime.checkupdate.head	要在启动时检查产品更新吗？
+msg.lui.dlgFirstTime.accept	是
+msg.lui.dlgFirstTime.refuse	否
+msg.lui.dlgFirstTime.ceip	VMware 客户体验改善计划(“CEIP”)向 VMware 提供信息，使 VMware 得以改进产品和服务、解决问题，并就如何最好地部署和使用我们的产品向您提出建议。作为 CEIP 的一部分，VMware 会结合贵组织的 VMware 许可证密钥，定期收集有关贵组织使用 VMware 产品和服务的技术信息。这些信息不会识别任何个人的身份。\n有关通过 CEIP 收集的数据及其 VMware 使用目的的更多信息，请参阅位于 http://www.vmware.com/trustvmware/ceip.html 的信任与保障中心。\n\n是否加入 VMware 客户体验改善计划(“CEIP”)？\n如果您不愿参与本产品的 VMware CEIP，请在下面选择“否”。\n您可以随时加入或退出本产品的 VMware CEIP。
+msg.lui.dlgFirstTime.eula.title	欢迎使用 %s
+msg.lui.dlgFirstTime.eula.subtitle	请查看以下许可协议以继续
+msg.lui.dlgFirstTime.questions.title	问题
+msg.lui.dlgFirstTime.questions.subtitle	自定义安装

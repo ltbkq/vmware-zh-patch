@@ -1,0 +1,374 @@
+msg.vmui.linux.updates.startup.description	%s 启动时，检查该应用程序和已安装软件组件的新版本。
+msg.vmui.linux.updates.startup.accel	启动时检查产品更新(_U)
+msg.vmui.linux.updates.components.description	需要软件组件时（例如安装 %s），检查该组件的新版本。
+msg.vmui.linux.updates.components.accel	需要时检查软件组件(_O)
+msg.vmui.linux.updates.ServerSettings.accel	连接设置(_N)
+msg.vmui.linux.app.unableToOpenCorruptVMX	无法将 %s 作为虚拟机打开：\n\n%s
+msg.vmui.linux.app.unableToOpenPeriod.STR	无法打开：%s。
+msg.vmui.linux.app.unableToOpenPeriod.STRSTR	无法打开“%s”：%s。
+msg.vmui.linux.cnxIsOpenInAnotherPeriod	“%s”已在另一个窗口中打开。
+msg.vmui.linux.unableToAddVirtualPeriod	无法将虚拟机“%s”添加到库：%s。
+msg.vmui.linux.app.localCnxInterrupted	与 %s Server 的连接意外丢失。
+msg.vmui.linux.app.remoteCnxInterrupted	与 %s 的连接意外丢失。
+msg.vmui.linux.ovfToolRunningCannotExit	在下载、上载、导入或导出虚拟机期间，%s 无法退出。请取消所有操作并重试。
+msg.vmui.linux.busyVMCannotBeClosed	虚拟机忙时无法关闭“%s”。
+msg.vmui.linux.quitPrompt.single	“%s”仍处于开机状态。\n\n您可以继续在后台运行它，或现在关闭其电源。
+msg.vmui.linux.quitPrompt.singleSuspend	“%s”仍处于开机状态。\n\n您可以继续在后台运行它、挂起以便稍后使用，或现在关闭其电源。
+msg.vmui.linux.quitPrompt.multiple	某些虚拟机仍处于开机状态。\n\n您可以继续在后台运行这些虚拟机，或现在关闭它们的电源。
+msg.vmui.linux.quitPrompt.multipleSuspend	某些虚拟机仍处于开机状态。\n\n您可以继续在后台运行这些虚拟机、挂起以便稍后使用，或现在关闭它们的电源。
+msg.vmui.linux.warningYouAreAttemptingPeriod	警告：您正尝试在操作仍在运行时退出。要强制退出吗？如果选择退出，您的首选项将不会被保存。
+msg.vmui.linux.invalidVmrcUrlFmt	%s：URL 无效：%s\n
+msg.vmui.linux.connectToHost	连接到服务器
+msg.vmui.linux.ChgHostDlg.SelectThe	选择要连接到的远程服务器。该服务器可以运行 VMware ESX 或 VMware vCenter Server。
+msg.vmui.linux.connectDlg.hostname	服务器名称(_S)：
+msg.vmui.linux.connectDlg.vcdserver	服务器(_S)：
+msg.vmui.linux.connectDlg.organization	组织(_O)：
+msg.vmui.linux.connectDlg.username	用户名(_U)：
+msg.vmui.linux.connectDlg.password	密码(_P)：
+msg.vmui.linux.openVirtualMachines	打开虚拟机
+msg.vmui.linux.unableToBrowseFor	无法浏览虚拟机：%s
+msg.vmui.linux.unableToBrowseForPeriod	无法浏览虚拟机。
+msg.vmui.linux.open.errorConvertingPath	将路径转换为 UTF-8 时出错
+msg.vmui.linux.cnxTab.username	用户名(_U)：
+msg.vmui.linux.cnxTab.password	密码(_P)：
+msg.vmui.linux.tab.resume	恢复(_R)
+msg.vmui.linux.poweredOn	已开机
+msg.vmui.linux.tab.resumeEllipsis	正在恢复...
+msg.vmui.linux.tab.powerOn	开机(_P)
+msg.vmui.linux.tab.powerOnEllipsis	正在开机...
+msg.vmui.linux.menu.vmPower	电源(_P)
+msg.vmui.linux.powerOff.accel	关机(_W)
+msg.vmui.linux.poweredOff	已关机
+msg.vmui.linux.poweringOffEllipsis	正在关机...
+msg.vmui.linux.suspended	已挂起
+msg.vmui.linux.suspendingEllipsis	正在挂起...
+msg.vmui.linux.homeTab.label	主页
+msg.vmui.linux.actions.open	打开(_O)...
+msg.vmui.linux.open	打开
+msg.vmui.linux.actions.open.tooltip	打开虚拟机。
+msg.vmui.linux.actions.home.open	打开\n虚拟机
+msg.vmui.linux.actions.localCnxTab.newVM.description	创建新的虚拟机
+msg.vmui.linux.actions.localCnxTab.newVM	创建新的虚拟机
+msg.vmui.linux.cnxTab.manageAutoStart.tooltip	管理虚拟机电源操作
+msg.vmui.linux.cnxTab.manageAutoStart	管理虚拟机电源操作(_M)
+msg.vmui.linux.localCnxTab.tasks	任务
+msg.vmui.linux.localCnxTab.notEnabled	要共享虚拟机，请在“编辑”>“首选项”>“共享虚拟机”中启用 %s。
+msg.vmui.linux.cnxTab.notAuthorizedToConnect	您的用户帐户未获授权连接到 Workstation Server。要使用共享虚拟机，请输入具有访问权限的帐户的用户名和密码。
+msg.vmui.linux.localCnxTab.header	正在连接到 Workstation Server
+msg.vmui.linux.localCnxTab.unableToConnect	无法连接到 Workstation Server。请确保其正在运行，\n然后单击“连接”重试。
+msg.vmui.linux.lockedTab.location	<b>位置：</b> %s
+msg.vmui.linux.omitFramesInWhich.accel	省略未发生变化的帧(_O)
+msg.vmui.linux.qualityColon.accel	质量(_Q)：
+msg.vmui.linux.highbestQualityFor	高（适合短时间捕获的最佳质量）
+msg.vmui.linux.mediumhigherQuality	中（适合较长时间捕获的较高质量）
+msg.vmui.linux.lowbetterForEmailing	低（适合通过电子邮件发送）
+msg.vmui.linux.unableToOpenCorruptVMX	无法将“%s”作为虚拟机或工作组打开：\n\n%s
+msg.vmui.linux.unableToOpenPeriod.STR	无法打开：%s
+msg.vmui.linux.unableToOpenPeriod.STRSTR	无法打开“%s”：%s
+msg.vmui.linux.multipleFilesToOpen	目录“%s”包含多个虚拟机或工作组配置文件。\n\n请指定要打开的配置文件。
+msg.vmui.linux.openingEmptyDirectory	目录“%s”不包含虚拟机或工作组配置文件。
+msg.vmui.linux.placeholderTab.loading	正在加载...
+msg.vmui.linux.actions.remoteCnxTab.toggleMaintenanceMode.exit	退出维护模式(_E)
+msg.vmui.linux.actions.remoteCnxTab.toggleMaintenanceMode.exit.tooltip	退出维护模式
+msg.vmui.linux.actions.remoteCnxTab.toggleMaintenanceMode.enter	进入维护模式(_E)
+msg.vmui.linux.actions.remoteCnxTab.toggleMaintenanceMode.enter.tooltip	进入维护模式
+msg.vmui.linux.cnxTab.enterCredentialsFormat	请输入服务器 %s 的用户名和密码。
+msg.vmui.linux.remoteCnxTab.header	正在连接到远程服务器
+msg.vmui.linux.actions.remoteCnxTab.restartHost.tooltip	重新启动主机
+msg.vmui.linux.actions.remoteCnxTab.restartHost	重新启动主机(_R)
+msg.vmui.linux.actions.remoteCnxTab.shutdownHost.tooltip	关闭主机
+msg.vmui.linux.actions.remoteCnxTab.shutdownHost	关闭主机(_S)
+msg.vmui.linux.actions.remoteCnxTab.newVM.description	创建新的虚拟机
+msg.vmui.linux.actions.remoteCnxTab.newVM	创建新的虚拟机
+msg.vmui.linux.cnxTab.disconnect.tooltip	从此服务器断开连接
+msg.vmui.linux.cnxTab.disconnect	断开连接(_D)
+msg.vmui.linux.cnxTab.connectedAs	已作为 %s 连接
+msg.vmui.linux.saveCapturedScreen	将捕获的屏幕另存为：
+msg.vmui.linux.recordingCreated.STR	已创建录制：%s
+msg.vmui.linux.snapshotCreated.STR	已创建快照：%s
+msg.vmui.linux.snapshotDetails	快照详细信息
+msg.vmui.linux.snapshotDetails.nameColon	名称(_N)：
+msg.vmui.linux.descriptionColon	描述(_D)：
+msg.vmui.linux.showAutoProtect.accel	显示自动保护快照(_P)
+msg.vmui.linux.showAutoProtect.hidden.accel	显示自动保护快照(_P)（隐藏 %d 个）
+msg.vmui.linux.autoProtect	自动保护
+msg.vmui.linux.youAreHere	您在此处
+msg.vmui.linux.snapshotManager.info.head.single	已选择快照
+msg.vmui.linux.snapshotManager.info.head.multiple	已选择快照
+msg.vmui.linux.snapshotManager.info.tail	 个
+msg.vmui.linux.snapshotManagerActions	快照管理器操作
+msg.vmui.linux.snapshotManager	快照管理器
+msg.vmui.linux.snapshotManager.readOnly	快照管理器（由于 vmrest 正在操作虚拟机，因此为只读）
+msg.vmui.linux.snapshotTake.title	拍摄快照 - %s
+msg.vmui.linux.nameColon	名称(_N)：
+msg.vmui.linux.descriptionoptional	描述(_D)：\n（可选）
+msg.vmui.linux.actions.closeTab.tooltip	关闭当前获得焦点的选项卡
+msg.vmui.linux.actions.closeTab	关闭选项卡(_B)
+msg.vmui.linux.actions.tabPrevious.tooltip	切换到上一个选项卡
+msg.vmui.linux.actions.tabPrevious	上一个选项卡(_P)
+msg.vmui.linux.actions.tabNext.tooltip	切换到下一个选项卡
+msg.vmui.linux.actions.tabNext	下一个选项卡(_N)
+msg.vmui.linux.taskActive.noActiveTasks	最近没有任务
+msg.vmui.linux.taskList.name	名称
+msg.vmui.linux.taskList.target	目标
+msg.vmui.linux.taskList.status	状态
+msg.vmui.linux.thumbnailBar.noOpenVMs	没有打开的虚拟机
+msg.vmui.linux.thumbnailBar.noFolderVMs	未选择虚拟机选项卡
+msg.vmui.linux.actions.download.tooltip	将虚拟机下载到您的计算机
+msg.vmui.linux.actions.download	下载(_W)...
+msg.vmui.linux.actions.upgradeHWVersion.tooltip	升级此虚拟机
+msg.vmui.linux.actions.upgradeHWVersion	升级此虚拟机(_U)
+msg.vmui.linux.actions.sendCtrlAltFnFmt	发送 Ctrl+Alt+F%u
+msg.vmui.linux.actions.sendCtrlAltFnFmt.tooltip	向虚拟机发送 Ctrl+Alt+F%u
+msg.vmui.linux.actions.home.feedback.tooltip	在我们的网站上就此测试版留下反馈。
+msg.vmui.linux.actions.home.feedback	留下反馈
+msg.vmui.linux.actions.home.newVM.description	在本地计算机上创建虚拟机。
+msg.vmui.linux.actions.home.newVM	创建新的虚拟机
+msg.vmui.linux.actions.home.help.description	查看 %s 的帮助内容。
+msg.vmui.linux.actions.home.help	帮助
+msg.vmui.linux.actions.snapshotSave.tooltip	为此虚拟机拍摄新快照
+msg.vmui.linux.actions.snapshotSave.tooltip.error	无法拍摄快照。点击了解更多信息。
+msg.vmui.linux.saveMovieCapture	保存捕获的影片
+msg.vmui.linux.unableToChangeVirtualPeriod	无法更改虚拟机电源状态：%s
+msg.vmui.linux.failedToTakeTheScreenshotPeriod	截取屏幕截图失败：%s。
+msg.vmui.linux.unableToBeginTakingPeriod	无法开始拍摄快照。
+msg.vmui.linux.unableToTakeSnapshotPeriod	无法拍摄快照。
+msg.vmui.linux.failedToCaptureMoviePeriod	录制影片失败：%s。
+msg.vmui.linux.unsupportedHWVersionProduct	虚拟机正在使用此版本 %s 不支持的硬件版本。请使用 %s 的先前版本升级该虚拟机。
+msg.vmui.linux.errorOpeningClone	打开克隆向导时出错：%s
+msg.vmui.linux.actions.snapshotRevert.name	还原到快照：%s(_R)
+msg.vmui.linux.actions.snapshotRevert.name.tooltip	将此计算机还原到其父快照：%s
+msg.vmui.linux.actions.snapshotRevert	还原到快照(_R)
+msg.vmui.linux.actions.snapshotRevert.tooltip	将此虚拟机还原到其父快照
+msg.vmui.linux.resumeGuest	恢复客户机(_E)
+msg.vmui.linux.resume	恢复(_U)
+msg.vmui.linux.resumingGuestEllipsis	正在恢复客户机...
+msg.vmui.linux.resumingEllipsis	正在恢复...
+msg.vmui.linux.startUpGuest.accel	启动客户机(_P)
+msg.vmui.linux.powerOn.accel	开机(_E)
+msg.vmui.linux.startingUpGuestEllipsis	正在启动客户机...
+msg.vmui.linux.poweringOnEllipsis	正在开机...
+msg.vmui.linux.shutDownGuest.accel	关闭客户机(_O)
+msg.vmui.linux.shuttingDownGuestEllipsis	正在关闭客户机...
+msg.vmui.linux.suspendGuest.accel	挂起客户机(_D)
+msg.vmui.linux.suspend.accel	挂起(_D)
+msg.vmui.linux.suspendingGuestEllipsis	正在挂起客户机...
+msg.vmui.linux.restartGuest.accel	重新启动客户机(_T)
+msg.vmui.linux.reset.accel	重置(_T)
+msg.vmui.linux.actions.deleteFromDisk.tooltip	从磁盘删除此虚拟机
+msg.vmui.linux.actions.deleteFromDisk	从磁盘删除(_D)
+msg.vmui.linux.menu.vmRemovableDevs	可移动设备(_R)
+msg.vmui.linux.actions.connectedUsers.tooltip	显示连接到此虚拟机的所有用户
+msg.vmui.linux.actions.connectedUsers	VNC 连接(_V)
+msg.vmui.linux.actions.captureScreen.tooltip	对此虚拟机截取屏幕截图
+msg.vmui.linux.actions.captureScreen	捕获屏幕(_C)
+msg.vmui.linux.actions.captureMovieStart.tooltip	录制此虚拟机的影片
+msg.vmui.linux.actions.captureMovieStart	录制影片(_V)...
+msg.vmui.linux.actions.captureMovieStop.tooltip	停止录制此虚拟机的影片
+msg.vmui.linux.actions.captureMovieStop	停止录制影片(_V)
+msg.vmui.linux.actions.pause.tooltip	暂停此虚拟机的执行
+msg.vmui.linux.actions.pause	暂停(_U)
+msg.vmui.linux.actions.grabInput.tooltip	让虚拟机捕获输入
+msg.vmui.linux.actions.grabInput	捕获输入(_G)
+msg.vmui.linux.actions.sendCtrlAltDel.tooltip	向虚拟机发送 Ctrl+Alt+Del
+msg.vmui.linux.actions.sendCtrlAltDel	发送 Ctrl+Alt+Del(_E)
+msg.vmui.linux.actions.installvPrint.tooltip	在此虚拟机上挂载虚拟打印机安装程序
+msg.vmui.linux.actions.installvPrint	安装虚拟打印机(_V)...
+msg.vmui.linux.actions.changeHWVersion.tooltip	升级或更改此虚拟机的版本
+msg.vmui.linux.actions.changeHWVersion	更改硬件兼容性(_H)...
+msg.vmui.linux.actions.messageLog.tooltip	显示虚拟机消息日志
+msg.vmui.linux.actions.messageLog	消息日志(_M)
+msg.vmui.linux.actions.settings.tooltip	编辑虚拟机设置
+msg.vmui.linux.actions.settings	设置(_S)
+msg.vmui.linux.actions.managePermissions.tooltip	管理此虚拟机的远程用户权限。
+msg.vmui.linux.actions.managePermissions	权限(_P)...
+msg.vmui.linux.actions.powerOnToFirmware.tooltip	打开此虚拟机的电源并进入固件设置
+msg.vmui.linux.actions.powerOnToFirmware	开机进入固件(_F)
+msg.vmui.linux.actions.clone.tooltip	克隆此虚拟机
+msg.vmui.linux.actions.clone	克隆(_C)...
+msg.vmui.linux.actions.upload.tooltip	将当前虚拟机上载到远程服务器
+msg.vmui.linux.actions.upload	上载(_U)...
+msg.vmui.linux.action.export.tooltip	导出当前虚拟机
+msg.vmui.linux.action.export	导出为 OVF(_E)...
+msg.vmui.linux.menu.vmSnapshot	快照(_N)
+msg.vmui.linux.actions.snapshotManage.tooltip	管理此虚拟机的快照
+msg.vmui.linux.actions.snapshotManage	快照管理器(_M)
+msg.vmui.linux.actions.snapshotSave	拍摄快照(_T)...
+msg.vmui.linux.actions.snapshotSave.short	快照
+msg.vmui.linux.actions.snapshotRevert.short	还原
+msg.vmui.linux.removeSmartCard.accel	移除智能卡(_S)
+msg.vmui.linux.removeSmartCard.tooltip	模拟智能卡移除事件
+msg.vmui.linux.insertSmartCard.accel	插入智能卡(_S)
+msg.vmui.linux.insertSmartCard.tooltip	模拟智能卡插入事件
+msg.vmui.linux.showInStatusBar.tooltip	在状态栏中显示此设备图标
+msg.vmui.linux.showInStatusBar.accel	在状态栏中显示(_S)
+msg.vmui.linux.errorSavingDescription	保存虚拟机描述时出错：%s。
+msg.vmui.linux.typeHereToEnterDesc	在此处输入以输入此虚拟机的描述。
+msg.vmui.linux.description	描述
+msg.vmui.linux.summary.tagline.both	版本 <span weight='bold'>%s</span>，作者 <span weight='bold'>%s</span>
+msg.vmui.linux.summary.tagline.author	作者 <span weight='bold'>%s</span>
+msg.vmui.linux.summary.tagline.version	版本 <span weight='bold'>%s</span>
+msg.vmui.linux.unknown	未知
+msg.vmui.linux.summary.deviceTooltip	%s：%s
+msg.vmui.linux.summary.state	状态：
+msg.vmui.linux.summary.remoteServer	远程服务器：
+msg.vmui.linux.summary.configurationFile	配置文件：
+msg.vmui.linux.summary.remoteDisplay	VNC 端口：
+msg.vmui.linux.summary.snapshot	快照：
+msg.vmui.linux.cloneOf	克隆自：
+msg.vmui.linux.summary.hardwareVersion	硬件兼容性：
+msg.vmui.linux.summary.primaryIpAddress	主 IP 地址：
+msg.vmui.linux.summary.vmCreateDate	创建时间：
+msg.vmui.linux.summary.vmLastPowerRequestTimestamp	上次请求开机：
+msg.vmui.linux.devices	设备
+msg.vmui.linux.summary	摘要
+msg.vmui.linux.activeTask	活动任务
+msg.vmui.linux.summary.details	虚拟机详细信息
+msg.vmui.linux.window.unableToOpenCorruptVMX	无法将 %s 作为虚拟机打开：\n\n%s
+msg.vmui.linux.actions.thumbnailBar.hide.tooltip	隐藏缩略图栏
+msg.vmui.linux.actions.thumbnailBar.show.tooltip	显示缩略图栏
+msg.vmui.linux.actions.sidebar.hide.tooltip	隐藏库
+msg.vmui.linux.actions.sidebar.show.tooltip	显示库
+msg.vmui.linux.actions.fullscreen.exit.tooltip	退出全屏模式
+msg.vmui.linux.actions.fullscreen.enter.tooltip	进入全屏模式
+msg.vmui.linux.actions.virtualMachine.tooltip	创建新的虚拟机
+msg.vmui.linux.actions.virtualMachine	新建虚拟机(_N)...
+msg.vmui.linux.new	新建
+msg.vmui.linux.actions.fullscreen	全屏(_F)
+msg.vmui.linux.createVMNotSupported	不支持在此主机上创建虚拟机。该主机的版本可能过旧。
+msg.vmui.linux.display	显示
+msg.vmui.linux.autofit	自动调整
+msg.vmui.linux.whenTheVirtualMachinePeriod	当虚拟机显示设置更改时，调整应用程序窗口大小以匹配。
+msg.vmui.linux.autofitWindow.accel	自动调整窗口(_W)
+msg.vmui.linux.whenTheApplicationPeriod	当应用程序窗口大小更改时，更改虚拟机显示设置以匹配。
+msg.vmui.linux.autofitGuest.accel	自动调整客户机(_U)
+msg.vmui.linux.fullScreen	全屏
+msg.vmui.linux.MakeDisplayPage.requiresTools	需要安装 VMware Tools。
+msg.vmui.linux.MakeDisplayPage.AutofitGuest.accel	自动调整客户机（更改客户机分辨率）(_A)
+msg.vmui.linux.stretchesTheGuestPeriod	将客户机屏幕拉伸以填充主机显示器。
+msg.vmui.linux.stretchGuestnoResolution.accel	拉伸客户机（不更改分辨率）(_S)
+msg.vmui.linux.guestMayAppearWithPeriod	客户机可能带有边框或滚动条。
+msg.vmui.linux.centerGuestnoResolution.accel	居中客户机（不更改分辨率）(_C)
+msg.vmui.linux.graphics	图形
+msg.vmui.linux.remoteMKSHDAccelEnabled	允许对所有虚拟机控制台启用硬件加速(_R)
+msg.vmui.linux.menuAndToolbar	菜单和工具栏
+msg.vmui.linux.compactToolbar	在窗口模式下将工具栏与菜单栏合并(_T)
+msg.vmui.linux.compactTabs	在全屏模式下将选项卡与工具栏合并(_B)
+msg.vmui.linux.showToolbarEdge	在全屏未固定时显示工具栏边缘(_F)
+msg.vmui.linux.prefsDlg.pages	页
+msg.vmui.linux.preferences	首选项
+msg.vmui.linux.feedback	反馈
+msg.vmui.linux.feedback.userExperience	客户体验改善计划
+msg.vmui.linux.feedback.helpImprove	加入 VMware 客户体验改善计划(_I)
+msg.vmui.linux.hotKeys	热键
+msg.vmui.linux.hotKeyCombination	热键组合
+msg.vmui.linux.hotKeySettingsHeader	热键提供常用虚拟机操作的快捷方式。单击下面的键盘按键可修改热键。
+msg.vmui.linux.hotKeyEscWarning	此设置将停用其他热键组合。
+msg.vmui.linux.input	输入
+msg.vmui.linux.keyboardAndMouse	键盘和鼠标
+msg.vmui.linux.grabKeyboardAndMouse	单击鼠标时捕获键盘和鼠标输入(_S)
+msg.vmui.linux.grabKeyboardAndMouse.accel	按键时捕获键盘和鼠标输入(_D)
+msg.vmui.linux.cursor	光标
+msg.vmui.linux.mayNeedTools	可能需要安装 %s 才能使这些选项正常工作。
+msg.vmui.linux.automaticallyGrab	自动捕获和释放鼠标光标(_A)。
+msg.vmui.linux.prefs.gamingMouse	为游戏优化鼠标(_O)：
+msg.vmui.linux.prefs.gamingMouse.automatic	自动
+msg.vmui.linux.prefs.gamingMouse.always	始终
+msg.vmui.linux.prefs.gamingMouse.never	从不
+msg.vmui.linux.prefs.gamingMouse.info	如果在某些应用程序中鼠标移动出现问题，请更改此选项。
+msg.vmui.linux.reservedMemory	保留的内存
+msg.vmui.linux.howMuchHostRamShould	系统应能为所有正在运行的虚拟机保留多少主机 RAM？
+msg.vmui.linux.hostRamForAllVirtualColon.accel	用于所有虚拟机的主机 RAM(_R)：
+msg.vmui.linux.additionalMemory	其他内存
+msg.vmui.linux.howShouldTheSystem	系统应如何为虚拟机分配内存？
+msg.vmui.linux.fitAllVirtualMachine.accel	将所有虚拟机内存放入保留的主机 RAM 中(_A)
+msg.vmui.linux.allowSomeVirtualMachine.accel	允许交换部分虚拟机内存(_S)
+msg.vmui.linux.allowMostVirtualMachine.accel	允许交换大部分虚拟机内存(_T)
+msg.vmui.linux.mb	MB
+msg.vmui.linux.memory	内存
+msg.vmui.linux.swappingVirtualMemoryPeriod	交换虚拟内存可以运行更多虚拟机，但如果虚拟机大量使用内存，可能会降低系统性能。
+msg.vmui.linux.youMustBeRunningWorkstationPeriodPl	必须以 root 身份运行 Workstation 才能更改这些首选项。
+msg.vmui.linux.youMustBeRunningWorkstationPeriod	必须以 root 身份运行 Workstation 才能更改此首选项。
+msg.vmui.linux.virtualMachinesMustPeriod.warning	虚拟机必须关闭电源，后台快照更改才能生效。
+msg.vmui.linux.priority	优先级
+msg.vmui.linux.snapshots	快照
+msg.vmui.linux.backgroundSnapshotsSave.accel	尽可能在后台拍摄快照(_T)
+msg.vmui.linux.backgroundSnapshotsRestore.accel	尽可能在后台还原快照(_R)
+msg.vmui.linux.preferences.savedCredentialsDlg.title	保存的登录信息
+msg.vmui.linux.preferences.savedCredentialsDlg.savedPasswords	保存的密码(_P)
+msg.vmui.linux.prefs.savedCredsDlg.passwords.server	服务器
+msg.vmui.linux.prefs.savedCredsDlg.passwords.username	用户名
+msg.vmui.linux.preferences.savedCredentialsDlg.exceptions	例外(_E)
+msg.vmui.linux.prefs.savedCredsDlg.exceptions.server	服务器
+msg.vmui.linux.preferences.sharing.connecting	正在连接到 Workstation Server...
+msg.vmui.linux.preferences.sharing.unableToConnect	无法连接到 Workstation Server。请确保服务器正在运行，并且您已获授权连接。
+msg.vmui.linux.preferences.sharing.unableToLoadHost	无法加载服务器信息。请确保您有权访问该服务器。
+msg.vmui.linux.preferences.sharing.sharedVMsNotEmpty	存在共享虚拟机时无法更改位置。
+msg.vmui.linux.preferences.sharing.connectionLost	与 Workstation Server 的连接已丢失。
+msg.vmui.linux.preferences.sharing.stoppingServer	正在关闭 Workstation Server...
+msg.vmui.linux.preferences.sharing.startingServer	正在启动 Workstation Server...
+msg.vmui.linux.preferences.sharing.fetchingState	正在加载存储信息...
+msg.vmui.linux.preferences.sharing.setSharedDirFailed	无法更改共享虚拟机位置：%s。\n\n目录“%s”仍然存在。
+msg.vmui.linux.preferences.sharing.unableToSetDirectory	无法设置共享虚拟机位置：%s
+msg.vmui.linux.preferences.sharing.directoryNotEmpty	只有空目录或新目录才能用作共享虚拟机位置。
+msg.vmui.linux.preferences.sharing.noAccess	无法访问“%s”。请确保所有用户都具有读取此目录的权限。
+msg.vmui.linux.preferences.sharing.pathNotAbsolute	给定的路径不是绝对路径。
+msg.vmui.linux.preferences.sharing.unableToCreate	无法设置共享虚拟机位置：%s。
+msg.vmui.linux.prefs.sharing.sharing	共享虚拟机
+msg.vmui.linux.prefs.sharing.workstationServer	%s 设置
+msg.vmui.linux.prefs.sharing.enableSharing.accel	启用虚拟机共享和远程访问(_E)
+msg.vmui.linux.prefs.sharing.serverPort	%s 使用的 HTTPS 端口(_T)：
+msg.vmui.linux.prefs.sharing.sharedVMsLocation	共享虚拟机位置
+msg.vmui.linux.updates.accel	更新
+msg.vmui.linux.updates.DownloadAll.accel	立即下载所有组件(_L)
+msg.vmui.linux.updates.software	软件更新
+msg.vmui.linux.updates.learnMore	了解详情
+msg.vmui.linux.updates.tools	VMware Tools 更新
+msg.vmui.linux.updates.ifANewVersionOfVmwarePeriod	如果有新版本的 VMware Tools 可用，则在虚拟机下次打开或关闭电源时将对其更新。可以在每台虚拟机的设置中覆盖此配置。
+msg.vmui.linux.updates.AutomaticallyUpdate.accel	自动更新虚拟机上的 VMware Tools(_A)
+msg.vmui.linux.prefs.workspace.forgetSavedCredentials	要让 %s 放弃所有已保存的登录信息吗？
+msg.vmui.linux.browseForScreenshotLocation	浏览屏幕截图位置
+msg.vmui.linux.workspace	工作区
+msg.vmui.linux.defaultLocationFor	虚拟机的默认位置
+msg.vmui.linux.browseForDefaultLocation	浏览默认位置
+msg.vmui.linux.virtualMachines	虚拟机
+msg.vmui.linux.rememberOpenedTabs.accel	在会话之间记住已打开的选项卡(_E)
+msg.vmui.linux.keepVMsRunningAfterClose	关闭 %s 后让虚拟机继续运行(_K)
+msg.vmui.linux.enableAllSharedFolders.accel	默认启用所有共享文件夹(_S)
+msg.vmui.linux.showTrayIcon.accel	显示托盘图标(_O)：
+msg.vmui.linux.defaultHardwareCompatibilityColon.accel	默认硬件兼容性(_T)：
+msg.vmui.linux.prefs.workspace.privacy	隐私
+msg.vmui.linux.prefs.workspace.saveCredentials	提议保存远程服务器的登录信息(_F)
+msg.vmui.linux.prefs.workspace.showSavedLogins	显示已保存的登录信息(_V)
+msg.vmui.linux.wizard.shareVM.movePg.moveVMBlurb	移动虚拟机将把与该虚拟机相关的所有文件重新定位到共享虚拟机目录。
+msg.vmui.linux.wizard.shareVM.movePg.copyVMBlurb	克隆虚拟机将在其当前状态下创建原始虚拟机的完整副本。新虚拟机完全独立，并需要额外的磁盘空间来存储。
+msg.vmui.linux.autoStartDlg.header	选择哪些虚拟机将随主机一起启动，以及主机关闭时每台虚拟机的停止操作(_W)：
+msg.vmui.linux.autoStartDlg.vmName	名称
+msg.vmui.linux.autoStartDlg.autoStart	自动启动
+msg.vmui.linux.autoStartDlg.stopAction.suspend	挂起
+msg.vmui.linux.autoStartDlg.stopAction.guestShutDown	关闭客户机
+msg.vmui.linux.autoStartDlg.stopAction.powerOff	关机
+msg.vmui.linux.autoStartDlg.stopAction.None	无
+msg.vmui.linux.autoStartDlg.stopAction	停止操作
+msg.vmui.linux.autoStartDlg.vmPath	路径
+msg.vmui.linux.autoStartDlg.delayString	启动每台虚拟机之间的延迟（秒）(_D)：
+msg.vmui.linux.autoStartDlg.autoStart.suspend	挂起
+msg.vmui.linux.autoStartDlg.autoStart.shutDown	关闭客户机
+msg.vmui.linux.autoStartDlg.autoStart.powerOff	关机
+msg.vmui.linux.autoStartDlg.autoStart.none	无
+msg.vmui.linux.autoStartDlg.title	管理虚拟机电源操作
+msg.vmui.linux.unableToEnumerate	无法列出目录“%s”中的名称：%s
+msg.vmui.linux.goUpALevel	上移一级
+msg.vmui.linux.directories	目录
+msg.vmui.linux.files	文件
+msg.vmui.linux.filterColon.accel	筛选(_F)：
+msg.vmui.linux.selectionColon	选择：
+msg.vmui.linux.esxServerCompatible.accel	与 ESX Server 兼容(_X)
+msg.vmui.linux.confirmToolsCancellation	这将断开 %s 安装程序虚拟光盘的连接。客户机操作系统中正在运行的安装程序可能会显示错误消息。如果安装过程中出现问题，请重新安装 %s。\n\n确定要取消 %s 安装吗？
+msg.vmui.linux.exportOVF	导出虚拟机为 OVF
+msg.vmui.linux.actions.downloadingTools	（正在下载 %s）
+msg.vmui.linux.actions.downloadingTools.tooltip	VMware 客户机工具正在下载
+msg.vmui.linux.actions.reinstallTools	重新安装 VMware Tools(_T)...
+msg.vmui.linux.actions.reinstallTools.tooltip	重新安装 VMware 客户机工具
+msg.vmui.linux.actions.updateTools	更新 VMware Tools(_T)...
+msg.vmui.linux.actions.updateTools.tooltip	更新 VMware 客户机工具

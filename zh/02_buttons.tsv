@@ -1,0 +1,191 @@
+button.removeFromList	从库中移除(_R)
+button.deleteFromDisk	从磁盘删除(_D)
+button.player.remoteVMDlg.button.cancel	取消
+button.player.remoteVMDlg.button.open	打开
+button.player.serverCnxDlg.button.cancel	取消
+button.player.serverCnxDlg.button.connect	连接
+button.fuseui.mountView.buttons.mount	挂载(_M)
+button.fuseui.mgtView.buttons.mount	挂载磁盘(_M)...
+button.fuseui.mgtView.buttons.unmount	卸载磁盘(_U)
+button.netcfg.linux.addNetwork.add	添加
+button.netcfg.linux.addNetwork.cancel	取消
+button.netcfg.linux.autoBridge.close	关闭
+button.netcfg.linux.autoBridge.help	帮助
+button.netcfg.linux.mapPortDlg.help	帮助
+button.netcfg.linux.natSettings.save	保存
+button.netcfg.linux.natSettings.cancel	取消
+button.netcfg.linux.natSettings.help	帮助
+button.ui.cancel	取消(_C)
+button.ui.openWindow	打开窗口(_O)
+button.vmui.cnxtab.hostnameCollision.close	关闭(_C)
+button.vmui.linux.autoprotect.accel	自动保护(_A)...
+button.removeServer.cancel	取消
+button.removeServer.remove	移除
+button.remove	移除(_R)
+button.removeall	全部移除(_M)
+button.vmui.linux.prefs.forget.no	保留存储的信息(_K)
+button.vmui.linux.prefs.forget.yes	放弃(_D)
+button.dnd.overwrite.yes	是
+button.dnd.overwrite.yes.all	全部是
+button.dnd.overwrite.no	否
+button.dnd.overwrite.stop	停止
+button.retry	重试(_R)
+button.abort	取消
+button.ok	确定
+button.cancel	取消
+button.yes	是(_Y)
+button.no	否(_N)
+button.cdromImage.continue	继续
+button.cdromImage.disconnect	断开连接
+button.cui.closeVMDlg.suspend	挂起(_S)
+button.cui.closeVMDlg.powerOff	关机(_P)
+button.cui.closeVMDlg.background	后台运行(_B)
+button.cui.cancel	取消(_C)
+button.cui.ok	确定(_O)
+button.cui.hostPowerOps.restart	重新启动(_R)
+button.cui.hostPowerOps.standby	待机(_S)
+button.cui.hostPowerOps.shutDown	关机(_S)
+button.confirm	继续
+button.ignore	忽略
+button.restartWindows	重新启动 Windows
+button.restart	重新启动
+button.report	报告(_R)...
+button.cui.ovftool.cancel	取消(_C)
+button.cui.ovftool.retry	重试(_R)
+button.cui.ovftool.accept	接受(_A)
+button.cui.ovftool.decline	拒绝(_D)
+button.cui.hints.enableHints.confirm	启用提示(_E)
+button.reset	重置
+button.browse	浏览(_W)...
+button.cui.reset	重置(_R)
+button.cui.cleanup	清理(_U)
+button.powerOff	关机
+button.suspend	挂起
+button.cui.vm.discardSuspend	放弃(_D)
+button.shutDown	关机
+button.enterExclusiveMode	进入独占模式(_E)
+button.cui.vmEncryption.upgrade	升级
+button.cui.vmEncryption.doNotUpgrade	不升级
+button.cui.vmmenu.device.Audio.connect	连接声卡
+button.cui.vmmenu.device.Audio.disconnect	断开声卡
+button.cui.vmmenu.device.Audio.connected	声卡：已连接
+button.cui.vmmenu.device.Audio.disconnected	声卡：已断开
+button.cui.vmmenu.device.CDROM.connect	连接 CD/DVD
+button.cui.vmmenu.device.CDROM.Plural.connect	连接 CD/DVD %d
+button.cui.vmmenu.device.CDROM.disconnect	断开 CD/DVD
+button.cui.vmmenu.device.CDROM.Plural.disconnect	断开 CD/DVD %d
+button.cui.vmmenu.device.CDROM.connected	CD/DVD：已连接
+button.cui.vmmenu.device.CDROM.Plural.connected	CD/DVD %d：已连接
+button.cui.vmmenu.device.CDROM.disconnected	CD/DVD：已断开
+button.cui.vmmenu.device.CDROM.Plural.disconnected	CD/DVD %d：已断开
+button.cui.vmmenu.device.CDROM.chooseImage	选择光盘映像...
+button.cui.vmmenu.device.CDROM.noImage	不使用光盘映像
+button.cui.vmmenu.device.CDROM.currentImage	使用光盘映像(%s)
+button.cui.vmmenu.device.Floppy.chooseImage	选择软盘映像...
+button.cui.vmmenu.device.Floppy.noImage	不使用软盘映像
+button.cui.vmmenu.device.Floppy.connect	连接软盘
+button.cui.vmmenu.device.Floppy.Plural.connect	连接软盘 %d
+button.cui.vmmenu.device.Floppy.disconnect	断开软盘
+button.cui.vmmenu.device.Floppy.Plural.disconnect	断开软盘 %d
+button.cui.vmmenu.device.Floppy.connected	软盘：已连接
+button.cui.vmmenu.device.Floppy.Plural.connected	软盘 %d：已连接
+button.cui.vmmenu.device.Floppy.disconnected	软盘：已断开
+button.cui.vmmenu.device.Floppy.Plural.disconnected	软盘 %d：已断开
+button.cui.vmmenu.device.Floppy.currentImage	使用软盘映像(%s)
+button.cui.vmmenu.device.GenericSCSI.connect	连接通用 SCSI
+button.cui.vmmenu.device.GenericSCSI.Plural.connect	连接通用 SCSI %d
+button.cui.vmmenu.device.GenericSCSI.disconnect	断开通用 SCSI
+button.cui.vmmenu.device.GenericSCSI.Plural.disconnect	断开通用 SCSI %d
+button.cui.vmmenu.device.GenericSCSI.connected	通用 SCSI：已连接
+button.cui.vmmenu.device.GenericSCSI.Plural.connected	通用 SCSI %d：已连接
+button.cui.vmmenu.device.GenericSCSI.disconnected	通用 SCSI：已断开
+button.cui.vmmenu.device.GenericSCSI.Plural.disconnected	通用 SCSI %d：已断开
+button.cui.vmmenu.device.NIC.connect	连接网络适配器
+button.cui.vmmenu.device.NIC.Plural.connect	连接网络适配器 %d
+button.cui.vmmenu.device.NIC.disconnect	断开网络适配器
+button.cui.vmmenu.device.NIC.Plural.disconnect	断开网络适配器 %d
+button.cui.vmmenu.device.NIC.connected	网络适配器：已连接
+button.cui.vmmenu.device.NIC.Plural.connected	网络适配器 %d：已连接
+button.cui.vmmenu.device.NIC.disconnected	网络适配器：已断开
+button.cui.vmmenu.device.NIC.Plural.disconnected	网络适配器 %d：已断开
+button.cui.vmmenu.device.Parallel.chooseImage	选择并行端口输出文件...
+button.cui.vmmenu.device.Parallel.noImage	不使用并行端口输出文件
+button.cui.vmmenu.device.Parallel.connect	连接并行端口
+button.cui.vmmenu.device.Parallel.Plural.connect	连接并行端口 %d
+button.cui.vmmenu.device.Parallel.disconnect	断开并行端口
+button.cui.vmmenu.device.Parallel.Plural.disconnect	断开并行端口 %d
+button.cui.vmmenu.device.Parallel.connected	并行端口：已连接
+button.cui.vmmenu.device.Parallel.Plural.connected	并行端口 %d：已连接
+button.cui.vmmenu.device.Parallel.disconnected	并行端口：已断开
+button.cui.vmmenu.device.Parallel.Plural.disconnected	并行端口 %d：已断开
+button.cui.vmmenu.device.Parallel.currentImage	使用并行端口输出文件(%s)
+button.cui.vmmenu.device.Serial.chooseImage	选择串行端口输出文件...
+button.cui.vmmenu.device.Serial.noImage	不使用串行端口输出文件
+button.cui.vmmenu.device.Serial.connect	连接串行端口
+button.cui.vmmenu.device.Serial.Plural.connect	连接串行端口 %d
+button.cui.vmmenu.device.Serial.disconnect	断开串行端口
+button.cui.vmmenu.device.Serial.Plural.disconnect	断开串行端口 %d
+button.cui.vmmenu.device.Serial.connected	串行端口：已连接
+button.cui.vmmenu.device.Serial.Plural.connected	串行端口 %d：已连接
+button.cui.vmmenu.device.Serial.disconnected	串行端口：已断开
+button.cui.vmmenu.device.Serial.Plural.disconnected	串行端口 %d：已断开
+button.cui.vmmenu.device.Serial.currentImage	使用串行端口输出文件(%s)
+button.cui.vmBackendVMDB.takeOwnership	获取所有权(_T)
+button.cui.guestOSInfoBar.btnLblRestart	重新启动虚拟机
+button.cui.guestOSInfoBar.btnLblCDROM	更改 CD/DVD 设置
+button.cui.guestOSInfoBar.btnLblNever	不再提醒我
+button.cui.guestOSInfoBar.btnLblDisc	更换光盘
+button.cui.guestOSInfoBar.btnLblHelp	帮助
+button.cui.guestOSInfoBar.btnLblFinished	我已完成安装
+button.cui.toolsInfoBar.btnLblInstall	安装 Tools
+button.cui.toolsInfoBar.btnLblUpdate	更新 Tools
+button.cui.toolsInfoBar.btnLblLater	稍后提醒我
+button.cui.toolsInfoBar.btnLblNever	不再提醒我
+button.cui.toolsInfoBar.btnLblHelp	帮助
+button.cui.toolsInfoBar.btnLblInstructions	说明
+button.cui.toolsInfoBar.btnLblRetry	重试
+button.cui.toolsInfoBar.btnLblCancel	取消
+button.cui.convertTeam	转换工作组(_O)
+button.cui.wizard.cancel	取消(_C)
+button.cui.wizard.back	上一步(_B)
+button.cui.wizard.next	下一步(_N)
+button.cui.wizard.finish	完成(_F)
+button.cui.wizard.close	关闭(_C)
+button.cui.wizard.help	帮助(_H)
+button.vmui.collectSupportData.collect	收集(_T)
+button.lui.dlgCertificateCheck.ignore	仍要连接(_O)
+button.lui.dlgCertificateCheck.viewCert	查看证书(_V)
+button.lui.downloadProgress.checkForUpdates	检查更新(_U)
+button.lui.downloadProgress.hide	隐藏(_H)
+button.lui.downloadPrompt.getInfo	获取更多信息(_G)
+button.lui.downloadPrompt.download	下载并安装(_D)
+button.lui.downloadPrompt.ignore	跳过此版本(_S)
+button.lui.downloadPrompt.remindLater	稍后提醒我(_R)
+button.lui.inventorybrowser.cancel	取消
+button.lui.inventorybrowser.ok	确定(_O)
+button.ui.linux.dlgLanSegments.renameButton	重命名(_R)
+button.ui.linux.removeAll.accel	全部移除(_A)
+button.lui.import	导入(_I)
+button.dontCancel	不取消(_C)
+button.cancelDownload	取消下载(_N)
+button.lui.toolsMgr.promptTryAnyway.download	下载并安装(_D)
+button.install	安装
+button.lui.inventoryView.cancelButton	取消
+button.lui.inventoryView.removeButton	移除
+button.lui.inventoryView.removePlusContentsButton	移除文件夹及其内容(_F)
+button.lui.inventoryView.removeFromLibraryButton	从库中移除(_L)
+button.lui.inventoryView.deleteFromDiskButton	从磁盘删除(_D)
+button.vmsettings.options.encryption.decrypt.warning.decrypt	移除加密(_R)
+button.vmsettings.options.encryption.encrypt.warning.encrypt	加密(_E)
+button.vmsettings.options.encryption.encrypt.go	加密(_E)
+button.lui.savePasswordInfoBar.remember	记住(_R)
+button.lui.savePasswordInfoBar.never	对此服务器永不记住(_s)
+button.lui.savePasswordInfoBar	暂不(_N)
+button.lui.savePasswordInfoBar.change	更改(_C)
+button.lui.savePasswordInfoBar.dontChange	不更改(_D)
+button.ui.wizard.vm.guestid.rescan	重新扫描光盘(_E)
+button.ui.wizard.vm.guestid.whatsthis	(这是什么?)
+button.vmui.linux.wizard.searchvm.browselibrary	浏览...
+button.vmui.linux.wizard.searchvm.selectall	全选
+button.vmui.linux.wizard.searchvm.unselectall	全不选
+button.ui.wizard.vm.summary.changeHardware	自定义硬件(_H)...

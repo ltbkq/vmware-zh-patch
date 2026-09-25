@@ -1,0 +1,395 @@
+msg.cui.vmdberror.invalidPath	路径无效
+msg.cui.vmdberror.fileNotFound	找不到文件
+msg.cui.deviceMgr.numCPUFormat	%zd 个 CPU 核心
+msg.cui.deviceMgr.cdDVD	CD/DVD
+msg.cui.deviceMgr.cdDVDFormat	%zd 个 CD/DVD
+msg.cui.deviceMgr.floppy	软盘
+msg.cui.deviceMgr.floppiesFormat	%zd 个软盘
+msg.cui.deviceMgr.usb	USB 控制器
+msg.cui.deviceMgr.usbsFormat	%zd 个 USB 控制器
+msg.cui.deviceMgr.parallel	并行端口
+msg.cui.deviceMgr.parallelsFormat	%zd 个并行端口
+msg.cui.deviceMgr.printer	打印机
+msg.cui.deviceMgr.serial	串行端口
+msg.cui.deviceMgr.serialsFormat	%zd 个串行端口
+msg.cui.deviceMgr.audio	声卡
+msg.cui.deviceMgr.genericSCSI	通用 SCSI
+msg.cui.deviceMgr.genericSCSIFormat	%zd 个通用 SCSI
+msg.cui.deviceMgr.none	无
+msg.cui.filter.AllFiles	所有文件
+msg.cui.filter.AllDirectories	所有文件夹
+msg.cui.filter.VMs	虚拟机 (*.vmx)
+msg.cui.filter.LegacyVMs	旧版虚拟机 (*.cfg)
+msg.cui.filter.OVFs	开放虚拟化格式虚拟机 (*.ovf, *.ova)
+msg.cui.filter.XmlVMs	虚拟机元数据文件 (*.vmxf)
+msg.cui.filter.Teams	工作组 (*.vmtm)
+msg.cui.filter.Snapshots	快照 (*.vmsn)
+msg.cui.filter.Disks	虚拟磁盘 (*.vmdk)
+msg.cui.filter.ISOImages	ISO 映像 (*.iso)
+msg.cui.filter.OutputFiles	输出文件 (*.txt)
+msg.cui.filter.FloppyImages	软盘映像 (*.flp, *.img)
+msg.cui.filter.MovieAVI	AVI 影片 (*.avi)
+msg.cui.filter.ImagePNG	PNG 文件 (*.png)
+msg.cui.filter.ImageJPEG	JPEG 文件 (*.jpg, *.jpeg)
+msg.cui.filter.ImageGIF	GIF 文件 (*.gif)
+msg.cui.filter.ImageBMP	BMP 文件 (*.bmp)
+msg.cui.filter.AllImages	所有图像文件
+msg.cui.filter.VMsAndTeams	虚拟机和工作组
+msg.cui.filter.VMsAndOVFs	虚拟机 (*.vmx, *.ovf, *.ova)
+msg.cui.vmUploader.noDatacenter	所选文件夹必须位于数据中心内。
+msg.cui.vmCnx.notConnectedFmt	未连接到 %s。
+msg.cui.vmPanic.windows	%s 遇到错误并已关闭 Windows。单击“重新启动 Windows”再次启动 Windows。单击“报告”以收集数据并向 VMware 请求支持。
+msg.cui.vmPanic.other	%s 遇到错误并已关闭虚拟机。单击“重新启动”再次启动虚拟机。单击“报告”以收集数据并向 VMware 请求支持。
+msg.cui.vm.exclusiveMode.enterError	无法进入独占模式：%s。
+msg.cui.vm.exclusiveMode.exitError	无法退出独占模式：%s。
+msg.cui.VM.toggleRemDevError	切换可移动设备时出错：%s
+msg.cui.vm.product.expired	此产品已过期，无法打开虚拟机电源。\n请确保主机的日期和时间设置正确。\n\n%s 网站上提供了较新版本：“%s”
+msg.cui.vm.license.expired	您的许可证已过期。必须拥有有效许可证才能打开虚拟机电源。
+msg.cui.VM.error.snapshotNotFound	找不到快照。所选快照可能已被其他用户删除。
+msg.cui.VM.error.snapshotRawDisk	具有原始磁盘的虚拟机无法使用快照。
+msg.cui.VM.error.snapshotIndepPower	虚拟机运行或挂起时，无法对具有独立磁盘的虚拟机拍摄快照。
+msg.cui.VM.error.snapshotReadOnly	无法对只读虚拟机拍摄快照。
+msg.cui.VM.error.cloneRawDisk	无法克隆具有物理磁盘的虚拟机。
+msg.cui.VM.error.cloneLegacy	无法克隆 Workstation 4.x 虚拟机。
+msg.cui.VM.error.cloneIndepDisk	无法对具有独立磁盘的虚拟机或快照创建链接克隆。
+msg.cui.VM.error.clonePower	无法克隆已开机或已挂起的虚拟机或快照。
+msg.cui.VM.error.cloneRecording	无法克隆录制文件。
+msg.cui.VM.error.cloneTemplateYAH	此虚拟机是模板。只能从现有快照对其进行克隆。
+msg.cui.VM.error.cloneTemplateReadOnly	此虚拟机为只读。必须将其设置为模板才能创建链接克隆。
+msg.cui.VM.error.cloneSharedOrRemoteVM	无法克隆共享或远程虚拟机。
+msg.cui.VM.error.cloneEncryptedVM	无法创建已加密虚拟机的链接克隆。
+msg.cui.VM.error.cloneBusyVM	虚拟机正在执行可能修改其磁盘的操作，此时无法创建克隆。
+msg.cui.VM.error.snapshotLegacy	无法对 Workstation 4.x 或更早版本的虚拟机拍摄快照。
+msg.cui.VM.error.unknown	未知错误。
+msg.cui.vm.grabMouse	要将输入定向到此虚拟机，请将鼠标指针移入其中或按 %s。
+msg.cui.vm.grabClick	要将输入定向到此虚拟机，请在其中单击或按 %s。
+msg.cui.vm.grabKb	要将输入定向到此虚拟机，请按 %s。
+msg.cui.vm.ungrabKb	要返回计算机，请按 %s。
+msg.cui.vm.ungrabMouse	要返回计算机，请将鼠标指针移出或按 %s。
+msg.cui.vm.statusText.Esc	Esc
+msg.cui.vm.warning.upgrade	通过选择“虚拟机”>“管理”>“更改硬件兼容性”来升级此虚拟机。
+msg.cui.vm.tools.status.outdated	此虚拟机上的 %s 版本已过时。
+msg.cui.vm.grabHotKey	Ctrl+G
+msg.cui.vm.tooltip.resume.soft	恢复此客户机操作系统
+msg.cui.vm.tooltip.powerOff.soft	关闭此客户机操作系统
+msg.cui.vm.tooltip.powerOn.soft	启动此客户机操作系统
+msg.cui.vm.tooltip.suspend.soft	挂起此客户机操作系统
+msg.cui.vm.tooltip.suspend.hard	挂起此虚拟机
+msg.cui.vm.tooltip.powerOn.hard	打开此虚拟机电源
+msg.cui.vm.tooltip.powerOff.hard	关闭此虚拟机电源
+msg.cui.vm.tooltip.reset.hard	重置此虚拟机
+msg.cui.vm.tooltip.resume.hard	恢复此虚拟机
+msg.cui.vm.tooltip.reset.soft	重新启动此客户机操作系统
+msg.cui.vm.shortLabel.resume	恢复
+msg.cui.vm.shortLabel.powerOn.soft	启动
+msg.cui.vm.shortLabel.reset.hard	重置
+msg.cui.vm.shortLabel.powerOff.soft	关机
+msg.cui.vm.shortLabel.powerOff.hard	关机
+msg.cui.vm.shortLabel.powerOn.hard	开机
+msg.cui.vm.shortLabel.suspend	挂起
+msg.cui.vm.shortLabel.reset.soft	重新启动
+msg.cui.VM.movie.movieTextFmt	%s 影片
+msg.cui.vm.checkForProblems.missingTeam	虚拟机“%s”声称是工作组“%s”的成员，但找不到或无法打开该工作组。要打开此虚拟机，必须找到该工作组，或将虚拟机重置为不再视为其成员。
+msg.cui.vm.checkForProblems.teamMissingVM	内部错误：此工作组找不到该虚拟机。
+msg.cui.vm.checkForProblems.teamFoundWrongVM	内部错误：此工作组找不到正确的虚拟机。
+msg.cui.vm.checkForProblems.invalidVMConfig	内部错误：此虚拟机的配置无效。
+msg.cui.vm.checkForProblems.lockedVM	内部错误：此虚拟机已被锁定。
+msg.cui.vm.checkForProblems.invalidHandle	内部错误：此虚拟机的句柄无效。
+msg.cui.vm.checkForProblems.lockedHandle	内部错误：此虚拟机的句柄已锁定。
+msg.cui.vm.needDifferentRepair	无法以这种方式修复虚拟机
+msg.cui.vm.onRepairFailure	尝试修复虚拟机时出错：%s。
+msg.cui.vm.diskCleanUpConfirm	虚拟机“%s”配置为自动清理磁盘。是否继续？
+msg.cui.vm.disconnectVNCUsers	其他用户当前正通过 VNC 连接到虚拟机“%s”。如果选择关闭此虚拟机电源或将其挂起，这些用户的 VNC 会话将被关闭。
+msg.cui.VM.missingFile.clonePrompt	克隆此虚拟机需要此文件。如果已移动该文件，请提供其新位置。
+msg.cui.vm.powerAction.otherUserConnect	另一位用户已连接到此虚拟机。\n
+msg.cui.vm.discardSuspendConfirm	确定要放弃“%s”的挂起状态吗？\n此操作无法撤销！
+msg.cui.vm.shutDownGuestConfirm	%s您确定要关闭“%s”的客户机操作系统吗？
+msg.cui.vm.powerOffConfirm	请确认已关闭客户机操作系统，然后再关闭电源。\n\n您确定要关闭虚拟机“%s”的电源吗？
+msg.cui.vm.suspendConfirm	%s您确定要挂起“%s”的客户机操作系统吗？
+msg.cui.vm.restartConfirm	%s您确定要重新启动“%s”的客户机操作系统吗？
+msg.cui.vm.resetConfirm	%s您确定要重置“%s”吗？
+msg.cui.VM.noExclusiveModeWhilePaused	虚拟机暂停时无法进入独占模式。
+msg.cui.VM.exclusiveModeName	独占模式
+msg.cui.VM.hint.enterExclusiveMode	进入 %s？\n\n
+msg.cui.VM.hint.leaveExclusiveModeKeyCombination	要离开 %s，请按 %s 组合键。
+msg.cui.VM.hint.leaveExclusiveModeKey	要离开 %s，请按 %s 键。
+msg.cui.vm.missingFile.powerPrompt	打开此虚拟机电源需要此文件。如果已移动该文件，请指定新位置。
+msg.cui.vm.remDevNotFound	找不到键为“%s”的可移动设备。
+msg.cui.vm.checkForProblems.vmxfFixFailure	尝试修复“%s”时出错：%s
+msg.cui.VM.ToggleRemDev.disconnect.deviceOnOtherClient	%s 已连接到另一个控制台中的设备。确定要断开此远程设备的连接吗？
+msg.cui.vm.cantFitGuest	目前无法更改客户机分辨率
+msg.cui.vm.remDevice.setUseClient.invalidMode	在非客户端模式下尝试将设备更改为客户端设备。
+msg.cui.vm.remDevice.setUseClient.fail	此设备不支持使用客户端设备。
+msg.cui.vm.remDevice.setUseClient	远程设备已配置为服务器设备。确定要将其重新配置为客户端设备吗？
+msg.cui.vm.cantStretchGuest	目前无法拉伸客户机。
+msg.cui.vm.cantStretchNotInStretchModeGuest	客户机未处于拉伸模式时无法拉伸。
+msg.cui.VM.connectRemDevError	连接可移动设备 %s 失败：%s。
+msg.cui.VM.disconnectRemDevError	断开可移动设备 %s 的连接失败：%s。
+msg.cui.VM.applianceNameTransition	%s - %s
+msg.cui.VM.applianceNotesTransition	%s\n\n%s
+msg.cui.vmBackgroundJobMgr.descJobSep	 / 
+msg.cui.vmBackgroundJobMgr.descJobFormat	%s... %d%%
+msg.cui.vmBackgroundJobMgr.tooltipJob	%s... 已完成 %d%%
+msg.cui.vm.encrypt.isLegacy	无法加密，因为此虚拟机是旧版虚拟机。
+msg.cui.vm.encrypt.hasRawDisk	无法加密，因为此虚拟机正在使用物理磁盘。
+msg.cui.vm.decrypt.isReadOnly	无法移除加密，因为此虚拟机为只读。
+msg.cui.vm.encrypt.isReadOnly	无法加密，因为此虚拟机为只读。
+msg.cui.vm.encrypt.hasRecording	无法加密，因为此虚拟机具有录制文件。
+msg.cui.vm.decrypt.isPoweredOn	无法移除加密，因为此虚拟机已开机。
+msg.cui.vm.encrypt.isPoweredOn	无法加密，因为此虚拟机已开机。
+msg.cui.vm.decrypt.hasLinkedClones	无法移除加密，因为此虚拟机具有链接克隆。
+msg.cui.vm.encrypt.hasLinkedClones	无法加密，因为此虚拟机具有链接克隆。
+msg.cui.vm.decrypt.isExporting	虚拟机正在导出时不允许移除加密。
+msg.cui.vm.encrypt.isExporting	虚拟机正在导出时不允许对其加密。
+msg.cui.vm.decrypt.missingParent	无法移除加密，因为此虚拟机是链接克隆，但找不到其父项。
+msg.cui.vm.encrypt.missingParent	无法加密，因为此虚拟机是链接克隆，但找不到其父项。
+msg.cui.vm.encrypt.hasUnecryptedParent	此虚拟机是链接克隆，但其父项未加密。这意味着即使您加密此虚拟机，其部分数据仍将处于未受保护状态。
+msg.cui.vmCryptoVMDB.canceling	正在取消...
+msg.cui.vmCrypto.notEnoughGB	磁盘空间不足，无法执行此操作。必须至少释放 %.1lf GB。
+msg.cui.vmCrypto.notEnoughMB	磁盘空间不足，无法执行此操作。必须至少释放 %.0lf MB。
+msg.cui.vmCryptoVMDB.changePassword.noOldPassword	必须指定当前密码。
+msg.cui.vmCryptoVMDB.genericReencryptFail	重新加密虚拟机失败。请重新启动 %s，然后稍后重试。
+msg.cui.vmCryptoVMDB.reencryptFailedValidation	无法重新加密虚拟机：%s
+msg.cui.vmCryptoVMDB.failedDiskSpace	磁盘空间不足，无法加密此虚拟机。请释放一些磁盘空间，然后稍后重试。
+msg.cui.vmCryptoVMDB.encrypt.reencrypting	正在重新加密虚拟机...
+msg.cui.vmCryptoVMDB.genericDecryptFail	从虚拟机移除加密失败。
+msg.cui.vmCryptoVMDB.decryptFailedValidation	无法解密虚拟机：%s
+msg.cui.vmCryptoVMDB.failedDiskSpaceDecrypt	磁盘空间不足，无法从此虚拟机移除加密。请释放一些磁盘空间，然后稍后重试。
+msg.cui.vmCryptoVMDB.decrypt.decrypting	正在从虚拟机移除加密...
+msg.cui.vmCryptoVMDB.changePwd.poweredOn	虚拟机已开机，无法更改密码。
+msg.cui.vmCryptoVMDB.notInTheClear	此虚拟机处于不一致状态。\n其配置文件未加密，但至少有一个组件已加密。请检查以确保其未使用已加密虚拟机的磁盘。
+msg.cui.vmCryptoVMDB.genericEncryptFail	加密虚拟机失败。
+msg.cui.vmCryptoVMDB.encrypt.encrypting	正在加密虚拟机...
+msg.cui.vmCryptoVigor.changePassword.noOldPassword	必须指定当前密码。
+msg.cui.vmCryptoVigor.changePassword.badOldPassword	旧密码不正确，无法更改密码。请使用正确的密码重试。
+msg.cui.vmDeviceMgrNone.DevicesNotSupported	不支持设备。
+msg.cui.vm.errorConnectingRemote	连接远程 USB 设备时出错：%s
+msg.cui.vm.remoteDeviceError	远程 USB 设备错误：%s
+msg.cui.vmDeviceMgr.emulateSmartCard.notConnected	虚拟智能卡设备无法模拟智能卡事件，因为该设备未连接到虚拟机。
+msg.cui.vmDeviceMgr.emulateSmartCard.notPresent	虚拟智能卡设备无法模拟智能卡事件，因为物理智能卡未插入读卡器。
+msg.cui.vmDeviceMgr.emulateSmartCard.notRemoved	在虚拟设备发出移除事件之前，虚拟智能卡设备无法模拟智能卡插入事件。
+msg.cui.vmDeviceMgr.emulateSmartCard.notInserted	在虚拟设备发出插入事件之前，虚拟智能卡设备无法模拟智能卡移除事件。
+msg.cui.vm.unmountToolsImage.badState	无法卸载 %s 映像。
+msg.cui.vm.mountCustomImage.badState	无法挂载映像：%s。
+msg.cui.vm.unmountCustomImage.badState	无法卸载映像：%s。
+msg.cui.vm.mountToolsImage.badState	无法挂载 %s 映像。
+msg.cui.vm.installVirtualPrinter.noPrinter	虚拟打印机需要虚拟机上的打印机设备。请为此虚拟机添加打印机，然后重试。
+msg.cui.vmListVIM.aborted	无法检索虚拟机列表
+msg.cui.vmmgr.vmDestroyedDuringInit	初始化期间虚拟机已被销毁
+msg.cui.vm.toolsrunningscript.suspend	在 VMware Tools 完成脚本运行之前，无法挂起虚拟机。
+msg.cui.vm.toolsrunningscript.powerOff	在 VMware Tools 完成脚本运行之前，无法关闭虚拟机。
+msg.cui.vm.powerAction.skip	请求的电源操作已在进行中。
+msg.cui.vmStatus.vim.notLogging	(未启用日志记录)
+msg.cui.vmTicketingMKS.TicketConsumed	一次性 MKS 票据已被使用。
+msg.cui.vm.hardware.abortUpgrade	无法升级虚拟机：%s。\n
+msg.cui.VM.missingFile.browse.title	查找缺失的文件：%s
+msg.cui.VM.missingFile.prompt	找不到文件：%s\n\n%s
+msg.cui.VMTicketingVIM.queueTimeout	排队获取 MKS 票据在 %ld 毫秒后超时
+msg.cui.VMTicketingVIM.ticketDisallowed	在计划调用时不允许获取 MKS 票据
+msg.cui.vmUploader.validateNoHost	请选择要上载 %s 的主机。
+msg.cui.vmUploader.noDestNode	尚未选择目标文件夹。
+msg.cui.vmUploader.noNetworks	在服务器上找不到网络。如果仍要上载此虚拟机，请移除其所有网络适配器设备，然后再次尝试上载。
+msg.cui.vmUploader.noCnx	与远程服务器的连接已丢失。
+msg.cui.vmUploader.validateHWVersionNotSupported	%s 是 %s，%s 不支持该类型。请选择其他主机，或将虚拟机的硬件版本更改为以下选项之一：%s
+msg.cui.inventory.newFolder	新建文件夹
+msg.cui.inventory.newVMEllipsis	新建虚拟机...
+msg.cui.inventory.loadingEllipsis	正在加载...
+msg.cui.inventory.node.cannotRename	无法重命名此节点
+msg.cui.inventory.nodeBatchMgr.openVMAbort	无法打开虚拟机 %s：%s
+msg.cui.inventory.nodeBatchMgr.powerOnVMAbort	无法更改虚拟机 %s 的电源状态：%s
+msg.cui.inventory.NodeBatchMgr.powerOn	打开此文件夹中虚拟机的电源
+msg.cui.inventory.NodeBatchMgr.powerOff	关闭此文件夹中虚拟机的电源
+msg.cui.inventory.NodeBatchMgr.suspend	挂起此文件夹中的虚拟机
+msg.cui.inventory.NodeBatchMgr.reset	重置此文件夹中的虚拟机
+msg.cui.inventory.registeredInventory.removeFailed	移除“%s”失败。\n
+msg.cui.inventory.registeredInventory.noLongerExists	源对象或目标对象已不存在，请刷新 vCenter 以检索最新的对象。
+msg.cui.inventory.registeredInventory.unableToCreateFolder	无法创建新文件夹
+msg.cui.inventory.vmNode.cannotRename	无法重命名此虚拟机
+msg.cui.inventory.vmNode.disconnected	 (已断开连接)
+msg.cui.inventory.vmNode.orphaned	 (孤立)
+msg.cui.inventory.vmNode.inaccessible	 (无法访问)
+msg.cui.inventory.vmNode.invalid	 (无效)
+msg.cui.VM.ProgressReplied.notCanceled	在您取消之前操作已完成。
+msg.cui.vmdevice.vusbCamera.configError	无法添加或配置此摄像机。
+msg.cui.vmConfigOptionsVIM.loadInfo.noHost	未设置主机。
+msg.cui.vmConfigOptionsVIM.loadInfo.noKey	不支持当前硬件版本。
+msg.cui.vmEditor.addDeviceFailed	无法添加设备 %s。该设备配置在此服务器上无效。
+msg.cui.vmEditor.removeDeviceFailed	无法移除设备 %s。无法在此服务器上移除该设备。
+msg.cui.vmEditor.editDeviceFailed	无法编辑设备 %s。该设备配置在此服务器上无效。
+msg.cui.vmEditor.deviceFailed	设备 %s 无效：%s
+msg.cui.vmCreator.esxVerFormat	%s - 与 ESX Server 兼容
+msg.cui.vmCreator.vim.invalidLocation	所选文件夹是无效位置。
+msg.cui.vmCreator.vim.creationFailed	无法从创建操作中找到有效的虚拟机
+msg.cui.vmconfig.vmEditor.missingVM	正在编辑的虚拟机已被关闭
+msg.cui.vmconfig.vmEditor.concurrentEdit	虚拟机配置已被并发编辑
+msg.cui.vmDevice.audio.summaryPhysical	使用设备 %s
+msg.cui.vmdevice.sound.name	声卡
+msg.cui.vmdevice.Device.autoDetect	自动检测
+msg.cui.vmDevice.cdrom.summaryRemotePhysical	使用远程驱动器 %s
+msg.cui.vmDevice.cdrom.summaryPersistPhysical	跨会话使用驱动器 %s
+msg.cui.vmDevice.cdrom.summaryPhysical	使用驱动器 %s
+msg.cui.vmDevice.cdrom.summaryRemoteFile	使用远程文件 %s
+msg.cui.vmDevice.cdrom.summaryFile	使用文件 %s
+msg.cui.vmDevice.cdrom.summaryLocalFile	使用本地文件 %s
+msg.cui.vmDevice.cdrom.summaryTempFile	本次会话使用文件 %s
+msg.cui.vmDevice.cdrom.summaryLocalDevice	使用本地驱动器 %s
+msg.cui.vmDevice.cdrom.summaryTempDevice	本次会话使用驱动器 %s
+msg.cui.vmDevice.cdrom.summaryRemote	使用另一个控制台上的设备或文件
+msg.cui.vmDevice.cdrom.summaryUnknown	使用未知后端
+msg.cui.vmdevice.cdrom.nameNew	新建 CD/DVD (%s)
+msg.cui.vmdevice.cdrom.name	CD/DVD (%s)
+msg.cui.vmdevice.cdrom.names	CD/DVD %d (%s)
+msg.cui.vmdevice.CPU.name	处理器
+msg.cui.vmdevice.Floppy.nameNumbered	软盘 %d
+msg.cui.vmdevice.Floppy.name	软盘
+msg.cui.vmDevice.floppy.summaryRemotePhysical	使用远程驱动器 %s
+msg.cui.vmDevice.floppy.summaryPersistPhysical	跨会话使用驱动器 %s
+msg.cui.vmDevice.floppy.summaryPhysical	使用驱动器 %s
+msg.cui.vmDevice.floppy.summaryRemoteFile	使用远程文件 %s
+msg.cui.vmDevice.floppy.summaryFile	使用文件 %s
+msg.cui.vmDevice.floppy.summaryLocalFile	使用本地文件 %s
+msg.cui.vmDevice.floppy.summaryTempFile	本次会话使用文件 %s
+msg.cui.vmDevice.floppy.summaryLocalDevice	使用本地驱动器 %s
+msg.cui.vmDevice.floppy.summaryTempDevice	本次会话使用驱动器 %s
+msg.cui.vmDevice.floppy.summaryRemote	在另一台计算机上使用 %s
+msg.cui.vmDevice.floppy.summaryUnknown	使用未知后端
+msg.cui.vmdevice.genericSCSI.name	通用 SCSI (SCSI %d:%d)
+msg.cui.vm.growDisk.confirmConversion	将此磁盘扩容到超过 %u GB 需要先将其转换为拆分磁盘。此操作可能需要大量时间。是否继续？
+msg.cui.vmdevice.hardDisk.partitions	使用分区
+msg.cui.vmdevice.hardDisk.device	使用设备 %s
+msg.cui.vmdevice.hardDisk.persistent	持久
+msg.cui.vmdevice.hardDisk.nonPersistent	非持久
+msg.cui.vmdevice.hardDisk.thinProvisioned	精简置备
+msg.cui.vmdevice.hardDisk.preallocated	预分配
+msg.cui.vmdevice.hardDisk.independentPersistent	独立-持久
+msg.cui.vmdevice.hardDisk.persisdent	持久
+msg.cui.vmdevice.hardDisk.undoable	可撤销
+msg.cui.vmdevice.hardDisk.independentNonPersistent	独立-非持久
+msg.cui.vmdevice.hardDisk.append	追加
+msg.cui.vmdevice.harddisk.nameNew	新建硬盘 (%s)
+msg.cui.vmdevice.harddisk.name	硬盘 (%s)
+msg.cui.vmdevice.harddisk.names	硬盘 %d (%s)
+msg.cui.vm.disk.shrink.preallocated	无法压缩此虚拟磁盘，因为它是预分配的。
+msg.cui.vm.disk.shrink.independentNonpersistent	非持久模式下的独立虚拟磁盘无法压缩。请转到“虚拟机设置”>“硬盘”>“高级”以更改此虚拟磁盘的模式。
+msg.cui.VM.Shrink.Progress	正在压缩虚拟磁盘...
+msg.cui.VM.Migrate.Progress	正在重新配置虚拟磁盘...
+msg.cui.VM.GrowDisk.Progress	正在扩展虚拟磁盘...
+msg.cui.VM.Defrag.Progress	正在对虚拟磁盘进行碎片整理...
+msg.cui.vmdevice.IDECtlr.name	IDE 控制器 %d
+msg.cui.vmDevice.deviceList.maxDevicesReached	已达到此类型设备的最大数量
+msg.cui.vmsettings.memory.noHotRemove	在虚拟机关闭电源之前无法减少内存。
+msg.cui.vmdevice.memory.name	内存
+msg.cui.vmdevice.NIC.nameNumbered	网络适配器 %d
+msg.cui.vmdevice.NIC.name	网络适配器
+msg.cui.vmdevice.NIC.bandwidth.modem28	调制解调器 (28.8 Kbps)
+msg.cui.vmdevice.NIC.bandwidth.modem56	调制解调器 (56 Kbps)
+msg.cui.vmdevice.NIC.bandwidth.isdn64	ISDN 1b (64 Kbps)
+msg.cui.vmdevice.NIC.bandwidth.isdn128	ISDN 2b (128 Kbps)
+msg.cui.vmdevice.NIC.bandwidth.leasedLine192	专线 (192 Kbps)
+msg.cui.vmdevice.NIC.bandwidth.leasedLineT1	专线 T1 (1.544 Mbps)
+msg.cui.vmdevice.NIC.bandwidth.cable4M	有线 (4 Mbps)
+msg.cui.vmdevice.NIC.bandwidth.cable10M	有线 (10 Mbps)
+msg.cui.vmdevice.NIC.bandwidth.leasedLineT3	专线 T3 (45 Mbps)
+msg.cui.vmdevice.NIC.bandwidth.cable100M	有线 (100 Mbps)
+msg.cui.vmdevice.NIC.bandwidth.unrestricted	不限制
+msg.cui.vmdevice.NIC.bandwidth.custom	自定义
+msg.cui.vmdevice.NIC.macAddressBadFormat	MAC 地址的格式应为 00:50:56:AB:CD:EF。
+msg.cui.vmdevice.NIC.macAddressRangeError	MAC 地址应介于 00:50:56:00:00:00 和 00:50:56:3F:FF:FF 之间。
+msg.cui.vmdevice.NIC.macAddressOUIRangeError	MAC 地址不能以 00:50:56:C0 开头。
+msg.cui.vmdevice.NIC.macAddressMulticast	MAC 地址的第一个字节不能为奇数。
+msg.cui.vmdevice.NIC.macAddressDuplicate	此虚拟机已使用该 MAC 地址。
+msg.cui.vmdevice.NIC.macAddressUnknownError	MAC 地址无效。
+msg.cui.vmdevice.NIC.dvs	分布式虚拟交换机
+msg.cui.vmdevice.nic.unknown	未知
+msg.cui.vmdevice.NIC.bridgedAutomatic	桥接(自动)
+msg.cui.vmdevice.NIC.NAT	NAT
+msg.cui.vmdevice.NIC.hostedOnly	仅主机
+msg.cui.vmdevice.NIC.custom	自定义 (%s)
+msg.cui.vmdevice.NIC.monitorDevice	监控设备
+msg.cui.vmdevice.NIC.PVN	LAN 区段
+msg.cui.vmdevice.NIC.networkName	命名网络 (%s)
+msg.cui.vmdevice.NIC.dvsNotSupported	不支持添加或重新配置连接到非临时分布式虚拟端口组的网络适配器。
+msg.cui.vmdevice.Parallel.nameNumbered	并行端口 %d
+msg.cui.vmdevice.Parallel.name	并行端口
+msg.cui.vmDevice.parallel.summaryPort	使用端口 %s
+msg.cui.vmDevice.parallel.summaryFile	使用文件 %s
+msg.cui.vmdevice.SATACtlr.name	SATA 控制器 %d
+msg.cui.vmdevice.SCSICtlr.name	SCSI 控制器 %d
+msg.cui.vmDevice.serial.summaryPort	使用端口 %s
+msg.cui.vmDevice.serial.summaryFile	使用文件 %s
+msg.cui.vmDevice.serial.summaryPipe	使用命名管道 %s
+msg.cui.vmDevice.serial.summarySocket	使用套接字 %s
+msg.cui.vmDevice.serial.summaryVirtualPrinter	存在
+msg.cui.vmDevice.serial.unsupported	无法识别的类型
+msg.cui.vmdevice.Serial.printerName	打印机
+msg.cui.vmdevice.Serial.nameNumbered	串行端口 %d
+msg.cui.vmdevice.Serial.name	串行端口
+msg.cui.vmdevice.SVGA.name	显示器
+msg.cui.vmdevice.SVGA.resolutionParseError	分辨率无效：%s
+msg.cui.vmdevice.SVGA.summaryFormatSingular	%u 个显示器
+msg.cui.vmdevice.SVGA.summaryFormatPlural	%u 个显示器
+msg.cui.vmdevice.SVGA.resolutionNotAllowed	不允许使用分辨率 %s。
+msg.cui.vmdevice.SVGA.resolutionFormat	%%d x %%d
+msg.cui.vmDevice.usb.summary	存在
+msg.cui.vmdevice.USBCtlr.name	USB 控制器
+msg.cui.vmdevice.USBDevice.name	USB 设备
+msg.cui.vmdevice.VTPM.name	可信平台模块
+msg.cui.vmDevice.vusbCamera.summary	存在
+msg.cui.vmdevice.vusbCamera.name	摄像机
+msg.cui.vmdevice.VMCI.nameNumbered	VMCI %d
+msg.cui.vmdevice.VMCI.name	VMCI
+msg.cui.vmDevice.VMCI.summaryUnrestricted	不受限
+msg.cui.vmDevice.VMCI.summaryRestricted	受限
+msg.cui.vmdevice.XHCICtlr.name	USB 3.2 控制器
+msg.cui.vmdevice.NVMeCtlr.name	NVMe 控制器 %d
+msg.cui.vmBackendVIM.cannotFindVM	找不到所请求的虚拟机。
+msg.cui.vmBackendVIM.hostNotFound	无法找到此虚拟机的主机计算机。
+msg.cui.vmBackendVIM.hostInMaintenanceMode	此虚拟机的主机计算机处于维护模式。
+msg.cui.vmBackendVIM.noVIMTemplates	不支持模板虚拟机。
+msg.cui.vmBackendVIM.hostDisconnected	此虚拟机的主机计算机未连接到 vCenter Server。
+msg.cui.vmBackendVIM.vmOrphaned	此虚拟机已从主机计算机中删除，但未从 vCenter Server 中删除。
+msg.cui.vmBackendVIM.notFound	无法找到虚拟机对象。
+msg.cui.vmBackendVIM.noConfig	无法读取配置数据。
+msg.cui.vmBackendVMDB.encryptedVM	此虚拟机已加密。
+msg.cui.vmBackendVMDB.overrideLock	此虚拟机似乎正在使用中。\n如果此虚拟机未在使用，请按“%s”按钮以获取其所有权。否则，请按“%s”按钮以避免损坏它。\n配置文件：%s。
+msg.cui.vmBackendVMDB.vmIsInUse	获取此虚拟机的所有权失败。\n该虚拟机正由主机计算机上的应用程序使用。\n配置文件：%s。
+msg.cui.vmBackendVMDB.cleanupError	获取此虚拟机的所有权失败。\n发生严重错误：%s。\n配置文件：%s。
+msg.cui.vmdberror.alreadyExist	文件或目录已存在
+msg.cui.vmdberror.memory	内存不足
+msg.cui.vmdberror.noPermission	没有执行此操作的权限
+msg.cui.vmdberror.timeOut	操作已超时
+msg.cui.vmdberror.peerConnect	连接到对等进程失败
+msg.cui.vmdberror.peerFailed	启动对等进程失败
+msg.cui.vmdberror.inProgres	请求的操作已在进行中
+msg.cui.vmdberror.noPeer	找不到要连接的有效对等进程
+msg.cui.vmdberror.deviceNotAllowed	虚拟设备只能在主机上使用
+msg.cui.vmdberror.corruptvmx	VMX 文件已损坏
+msg.cui.vmdberror.vmlocked	虚拟机似乎正在使用中
+msg.cui.vmdberror.pathTooLong	虚拟机路径过长
+msg.cui.vmdberror.internalError	内部错误
+msg.cui.guestOSInfoBar.txtNotInstalledFormat	此虚拟机上未安装 %s。请插入安装光盘，然后单击“重新启动虚拟机”。
+msg.cui.guestOSInfoBar.txtOtherNotInstalled	此虚拟机上未安装客户机操作系统。请插入安装光盘，然后单击“重新启动虚拟机”。
+msg.cui.guestOSInfoBar.txtInstallingFormat	像在物理计算机上一样安装 %s。完成后，当操作系统启动时，请单击“我已完成安装”。
+msg.cui.guestOSInfoBar.txtOtherInstalling	像在物理计算机上一样安装客户机操作系统。完成后，当操作系统启动时，请单击“我已完成安装”。
+msg.cui.guestOSInfoBar.txtEasyInstallFormat	简易安装正在安装 %s。%s
+msg.cui.guestOSInfoBar.txtEasyInstallWarning	为 Ubuntu 14.04 及更高版本安装 open-vm-tools 需要 Internet 连接。
+msg.cui.guestOSInfoBar.txtEasyInstallToolsKB1	完成操作系统安装后，需要手动安装 VMware Tools。请参阅 https://kb.vmware.com/s/article/78708。
+msg.cui.guestOSInfoBar.txtEasyInstallToolsKB2	完成操作系统安装后，需要手动安装 VMware Tools。安装 VMware Tools 之前应先安装 Windows Server 2012 R2 更新 (KB2919355)。
+msg.cui.guestOSInfoBar.txtOtherEasyInstall	简易安装正在安装客户机操作系统。
+msg.cui.guestOSInfoBar.txtEasyToolsFormat	简易安装正在 %s 上安装 VMware Tools。
+msg.cui.guestOSInfoBar.txtOtherEasyTools	简易安装正在客户机操作系统上安装 VMware Tools。
+msg.cui.guestOSInfoBar.txtEasyToolsError	简易安装未能自动安装 VMware Tools。请登录客户机操作系统，然后从“虚拟机”菜单中单击“安装 VMware Tools”。
+msg.cui.toolsInfoBar.txtNotInstalled	VMware Tools 可启用许多功能并改善鼠标移动、视频和性能。请登录客户机操作系统，然后单击“安装 Tools”。
+msg.cui.toolsInfoBar.txtNotCurrent	安装的 VMware Tools 版本不是最新版本。请登录客户机操作系统，然后单击“更新 Tools”。
+msg.cui.toolsInfoBar.txtUpdateToGet3D	安装的 VMware Tools 版本不是最新版本，并且 3D 图形已禁用。请登录客户机操作系统，然后单击“更新 Tools”以启用 3D 图形。
+msg.cui.toolsInfoBar.txtLogIn	请确保您已登录客户机操作系统。
+msg.cui.toolsInfoBar.txtWin8	如果未看到 VMware Tools 正在安装，请按 Windows 徽标键 + R，然后输入 D:\setup.exe（其中 D: 是您的虚拟 CD-ROM 驱动器）。
+msg.cui.toolsInfoBar.txtWinVista7	如果未看到 VMware Tools 正在安装，请单击 Windows 图标，然后在“搜索”框中输入 D:\setup.exe（其中 D: 是您的虚拟 CD-ROM 驱动器）。
+msg.cui.toolsInfoBar.txtWinOther	如果未看到 VMware Tools 正在安装，请在虚拟机中单击“开始”>“运行”，然后输入 D:\setup.exe（其中 D: 是您的虚拟 CD-ROM 驱动器）。
+msg.cui.toolsInfoBar.txtLinux	在客户机中挂载虚拟 CD 驱动器，启动终端，然后使用 tar 解压缩安装程序。接着执行 vmware-install.pl 以安装 VMware Tools。
+msg.cui.toolsInfoBar.txtOther	请参阅 Tools 安装指南了解安装说明。
+msg.cui.toolsInfoBar.txtInstaller	VMware Tools 正在安装。请按照客户机操作系统中的说明完成安装。
+msg.cui.toolsInfoBar.txtErrorImage	此客户机操作系统的 VMware Tools 安装映像不可访问。如果当前正在下载 VMware Tools，请等待下载完成。
+msg.cui.toolsInfoBar.txtErrorSigCheck	此客户机操作系统的 VMware Tools 安装映像没有有效签名，可能已损坏。请重新下载 VMware Tools 或重新安装产品。
+msg.cui.toolsInfoBar.txtErrorDevice	虚拟 CD/DVD 设备无法连接 VMware Tools 安装映像。客户机操作系统可能正在使用 CD/DVD 设备。
+msg.cui.inventory.vmNode.invalidDirectory	打开虚拟机目录失败：%s

@@ -1,0 +1,371 @@
+msg.vmui.linux.actions.toolsUnavailable	VMware Tools 不可用
+msg.vmui.linux.actions.toolsUnavailable.tooltip	此客户机的 VMware 客户机工具不可用
+msg.vmui.linux.actions.installTools	安装 VMware Tools(_T)...
+msg.vmui.linux.actions.installTools.tooltip	安装 VMware 客户机工具
+msg.vmui.linux.actions.startingTools	（正在启动 VMware Tools 安装）
+msg.vmui.linux.actions.startingTools.tooltip	VMware 客户机工具安装正在启动
+msg.vmui.linux.actions.cancelToolsInstall	取消 VMware Tools 安装(_T)
+msg.vmui.linux.actions.cancelToolsInstall.tooltip	取消 VMware 客户机工具安装
+msg.vmui.linux.actions.stoppingTools	（正在停止 VMware Tools 安装）
+msg.vmui.linux.actions.stoppingTools.tooltip	VMware 客户机工具安装正在停止
+msg.vmui.linux.disconnect.accel	断开连接(_C)
+msg.vmui.linux.connect.accel	连接(_C)
+msg.vmui.linux.settingsEllipsis.accel	设置(_S)...
+msg.vmui.linux.host	主机
+msg.vmui.linux.connectionTime	连接时间
+msg.vmui.linux.idleTime	空闲时间
+msg.vmui.linux.vpmc.accel	虚拟化 CPU 性能计数器(_P)
+msg.vmui.linux.cpu.vIOMMU	虚拟化 IO_MMU（IO 内存管理单元）
+msg.vmui.linux.advanced	高级
+msg.vmui.linux.firmwareChangeWarningVTPMExists	存在 TPM 设备时无法更改固件。
+msg.vmui.linux.firmwareChangeWarning	更改固件可能会导致已安装的客户机操作系统无法启动。
+msg.vmui.linux.templateModeOnDisableWarning	此虚拟机以前已被标记为用于克隆的模板。移除此选项可能会使从此虚拟机创建的链接克隆无法使用。
+msg.vmui.linux.settings	设置
+msg.vmui.linux.gatherDebuggingInformationColon.accel	收集调试信息(_R)：
+msg.vmui.linux.memoryPageTrimming.accel	允许内存页修剪(_M)
+msg.vmui.linux.logVirtualMachine.accel	定期记录虚拟机进度(_L)
+msg.vmui.linux.enableTemplateMode.accel	将此虚拟机用作链接克隆模板(_T)
+msg.vmui.linux.verboseUSBLogging.accel	收集详细的 USB 调试信息(_U)
+msg.vmui.linux.enableVBS.accel	启用 VBS（基于虚拟化的安全）支持(_V)
+msg.vmui.linux.firmwareType	固件类型
+msg.vmui.linux.fileLocations	文件位置
+msg.vmui.linux.configurationColon	配置：
+msg.vmui.linux.logColon	日志：
+msg.vmui.linux.noLogFile	（未开机）
+msg.vmui.linux.metadata	元数据
+msg.vmui.linux.applianceView.summaryFmt	端口：%u
+msg.vmui.linux.unknownDate	（未知）
+msg.vmui.linux.versionColon.accel	版本(_V)：
+msg.vmui.linux.authorColon.accel	作者(_A)：
+msg.vmui.linux.accessPort	虚拟机内的虚拟设备访问端口(_P)：
+msg.vmui.linux.createdAt	创建时间(_C)：
+msg.vmui.linux.createHour	小时(_H)
+msg.vmui.linux.createMinute	分钟(_M)
+msg.vmui.linux.enableAutoProtect.accel	启用自动保护(_E)
+msg.vmui.linux.autoProtectInterval.accel	自动保护间隔(_I)：
+msg.vmui.linux.autoProtectMaximum.accel	最大自动保护快照数(_M)：
+msg.vmui.linux.autoprotect.notSupported	%s 虚拟机不支持自动保护。
+msg.vmui.linux.advancedCdromOptions	CD/DVD 高级设置
+msg.vmui.linux.troubleshooting	疑难解答
+msg.vmui.linux.diskDefragmentationPeriod	磁盘碎片整理完成。
+msg.vmui.linux.diskSpaceIsPreallocatedPeriod	此虚拟磁盘的磁盘空间已预分配。
+msg.vmui.linux.diskSpaceIsNotPreallocatedPeriod	此虚拟磁盘的磁盘空间未预分配。
+msg.vmui.linux.virtualDisk.singleFile	虚拟磁盘内容存储在单个文件中。
+msg.vmui.linux.virtualDisk.multipleFiles	虚拟磁盘内容存储在多个文件中。
+msg.vmui.linux.diskExpandDlg.done	磁盘已成功扩展。现在需要在客户机操作系统内部重新分区并扩展文件系统。
+msg.vmui.linux.unableToRetrieveDisk	无法检索磁盘信息：%s
+msg.vmui.linux.couldNotLaunchFuseMountUI	无法启动虚拟磁盘挂载配置工具。\n\n%s
+msg.vmui.linux.mountDisk.accel	挂载磁盘(_M)...
+msg.vmui.linux.unmountDisk.accel	卸载磁盘(_U)...
+msg.vmui.linux.expandDisk.accel	扩展磁盘(_X)...
+msg.vmui.linux.compactDisk.accel	压缩磁盘(_T)...
+msg.vmui.linux.defragDisk.accel	磁盘碎片整理(_F)...
+msg.vmui.linux.mountVirtualDisk.explanation	在主机上挂载虚拟磁盘。
+msg.vmui.linux.unmountVirtualDisk.explanation	从主机卸载虚拟磁盘。
+msg.vmui.linux.defragDiskExplanation	整理文件碎片并合并可用空间。
+msg.vmui.linux.compactDiskExplanation	压缩磁盘以回收未使用的空间。
+msg.vmui.linux.expandDiskExplanation	扩展磁盘容量。
+msg.vmui.linux.hardDisk.mount.encrypted	虚拟机处于加密状态时无法挂载此虚拟磁盘。
+msg.vmui.linux.mode	模式
+msg.vmui.linux.persistent.accel	持久(_P)
+msg.vmui.linux.undoableAskToSave.accel	可撤销：关闭电源后询问是否保存更改(_U)
+msg.vmui.linux.nonpersistentDiscard.accel	非持久：关闭电源后放弃更改(_N)
+msg.vmui.linux.independent.accel	独立(_I)
+msg.vmui.linux.independentDisksArePeriod	独立磁盘不受快照影响。
+msg.vmui.linux.changesAreImmediatelyPeriod	更改会立即永久写入磁盘。
+msg.vmui.linux.changesToThisDiskPeriod	关闭电源或还原快照时将放弃对此磁盘的更改。
+msg.vmui.linux.nonpersistent.accel	非持久(_N)
+msg.vmui.linux.advancedHardDiskOptions	硬盘高级设置
+msg.vmui.linux.other	其他
+msg.vmui.linux.enableWriteCaching.accel	启用写入缓存(_E)
+msg.vmui.linux.capacity	容量
+msg.vmui.linux.vmsettings.disk.utilities	磁盘工具
+msg.vmui.linux.diskFile	磁盘文件
+msg.vmui.linux.currentSizeColon	当前大小：
+msg.vmui.linux.0Mb	0 MB
+msg.vmui.linux.maximumSizeColon	最大大小：
+msg.vmui.linux.systemFreeColon	系统可用空间：
+msg.vmui.linux.diskInformation	磁盘信息
+msg.vmui.linux.capacityColon	容量：
+msg.vmui.linux.deviceNameColon	设备名称：
+msg.vmui.linux.diskMode	磁盘模式
+msg.vmui.linux.youAreUsingALegacyPeriod	您正在使用旧版虚拟机。如果要在此虚拟机中使用物理磁盘，请先通过“虚拟机”>“管理”>“更改硬件兼容性”升级此虚拟机。
+msg.vmui.linux.diskExpandDlg.title	扩展磁盘容量
+msg.vmui.linux.diskExpandDlg.expand	扩展(_E)
+msg.vmui.linux.diskExpandDlg.header	指定虚拟磁盘的最大大小
+msg.vmui.linux.diskExpandDlg.maximumLabel	最大磁盘大小 (GB)(_S)：
+msg.vmui.linux.diskExpandDlg.expandHint	扩展仅会增加虚拟磁盘的大小。分区和文件系统的大小不受影响。
+msg.vmui.linux.diskExpandDlg.diskAtLimit	由于已达到磁盘大小上限，因此无法扩展虚拟磁盘。
+msg.vmui.linux.diskExpandDlg.noSnapshots	如果磁盘属于具有快照的虚拟机，则无法扩展磁盘。要扩展此磁盘，请先移除快照。
+msg.vmui.linux.diskExpandDlg.noLinkedClones	由于此虚拟磁盘是链接克隆，因此无法扩展它。
+msg.vmui.linux.theSettingsCannotPeriod	无法保存设置。此虚拟机最近已更改（例如，可能已开机）。请单击“取消”并重试。
+msg.vmui.linux.noHelpIsAvailablePeriod	此页没有可用的帮助。
+msg.vmui.linux.virtualMachineSettingsreadonly	虚拟机设置（由于 vmrest 正在操作虚拟机，因此为只读）
+msg.vmui.linux.virtualMachineSettings	虚拟机设置
+msg.vmui.linux.hardware.accel	硬件(_D)
+msg.vmui.linux.options.accel	选项(_O)
+msg.vmui.linux.encryption.notSupported	%s 虚拟机不支持加密。
+msg.vmui.linux.general	常规
+msg.vmui.linux.aNameMustBeSpecifiedPeriod	必须为此虚拟机指定名称。
+msg.vmui.linux.workingDirectoryDoes.STR	工作目录“%s”不存在
+msg.vmui.linux.workingDirectoryExists.STR	工作目录“%s”存在，但不是目录
+msg.vmui.linux.noGuestOSInVersionFmt	%s 不是 %s 虚拟机支持的客户机操作系统。除非升级其虚拟硬件，否则其某些功能可能无法正常工作。
+msg.vmui.linux.browseForWorkingDirectory	浏览工作目录
+msg.vmui.linux.virtualMachineName.accel	虚拟机名称(_N)
+msg.vmui.linux.workingDirectory.accel	工作目录(_K)
+msg.vmui.linux.workingDirectoryExplanation	挂起文件和快照文件将存储在此处。
+msg.vmui.linux.guestIsolation	客户机隔离
+msg.vmui.linux.enableDragAndDrop.accel	启用拖放(_D)
+msg.vmui.linux.enableCopyAndPaste.accel	启用复制和粘贴(_E)
+msg.vmui.linux.nic.macAddress.generate	生成(_G)
+msg.vmui.linux.nic.advanced.title	网络适配器高级设置
+msg.vmui.linux.nic.advanced.latencyTooltip	有效延迟范围为 0 - 2000 毫秒。低于 10 毫秒的模拟不准确。
+msg.vmui.linux.nic.advanced.incoming.latency	延迟 (ms)(_T)：
+msg.vmui.linux.nic.advanced.incoming.packetLoss	丢包率 (%)(_P)：
+msg.vmui.linux.nic.advanced.incoming.kbps	_Kbps
+msg.vmui.linux.nic.advanced.incoming.bandwidth	带宽(_B)：
+msg.vmui.linux.nic.advanced.incoming.title	传入流量
+msg.vmui.linux.nic.advanced.outgoing.latency	延迟 (ms)(_E)：
+msg.vmui.linux.nic.advanced.outgoing.packetLoss	丢包率 (%)(_L)：
+msg.vmui.linux.nic.advanced.outgoing.kbps	Kbp_s
+msg.vmui.linux.nic.advanced.outgoing.bandwidth	带宽(_A)：
+msg.vmui.linux.nic.advanced.outgoing.title	传出流量
+msg.vmui.linux.nic.advanced.macAddress.title	MAC 地址(_M)
+msg.vmui.linux.setting	设置
+msg.vmui.linux.power	电源
+msg.vmui.linux.powerOptions	电源选项
+msg.vmui.linux.enterFullScreenModeAfter.accel	开机后进入全屏模式(_E)
+msg.vmui.linux.closeAfterPowering.accel	关闭电源或挂起后关闭(_C)
+msg.vmui.linux.reportBatteryInformation.accel	向客户机报告电池信息(_B)
+msg.vmui.linux.powerControls	电源控件
+msg.vmui.linux.powerOff	关闭电源
+msg.vmui.linux.shutdownGuest	关闭客户机
+msg.vmui.linux.suspend	挂起
+msg.vmui.linux.suspendGuest	挂起客户机
+msg.vmui.linux.powerOn	开机
+msg.vmui.linux.startUpGuest	启动客户机
+msg.vmui.linux.reset	重置
+msg.vmui.linux.restartGuest	重新启动客户机
+msg.vmui.linux.thisOptionIsNotSupportedPeriod	%s 虚拟机不支持此选项。
+msg.vmui.linux.justPowerOff	仅关闭电源
+msg.vmui.linux.revertToSnapshot	还原到快照
+msg.vmui.linux.updateSnapshot	更新快照
+msg.vmui.linux.takeANewSnapshot	拍摄新快照
+msg.vmui.linux.askMe	询问我
+msg.vmui.linux.justPowerOff.accel	仅关闭电源(_J)
+msg.vmui.linux.takeANewSnapshot.accel	拍摄新快照(_K)
+msg.vmui.linux.updateMySnapshot.accel	更新我的快照(_U)
+msg.vmui.linux.askMe.accel	询问我(_A)
+msg.vmui.linux.snapshot.notSupported	%s 虚拟机不支持快照。
+msg.vmui.linux.whenPoweringOff	关闭电源时
+msg.vmui.linux.tools.syncTime.summary	时间同步已开启
+msg.vmui.linux.tools.noSyncTime.summary	时间同步已关闭
+msg.vmui.linux.vmwareToolsFeatures	%s 功能
+msg.vmui.linux.enableSyncTime.accel	将客户机时间与主机同步(_T)
+msg.vmui.linux.vmwareToolsUpdates	%s 更新
+msg.vmui.linux.tools.ifANewVersionOf	如果有新版本的 %s 可用：
+msg.vmui.linux.tools.updateAutomatically	自动更新(_A)
+msg.vmui.linux.tools.updateManually	手动更新（不执行任何操作）(_M)
+msg.vmui.linux.tools.useDefaultAutomatically	使用应用程序默认值（当前为自动更新）(_U)
+msg.vmui.linux.tools.useDefaultManually	使用应用程序默认值（当前为手动更新）(_U)
+msg.vmui.linux.tools.defaultSettingWS	要更改默认设置，请转到“编辑”>“首选项”>“更新”。必须以 root 身份运行 %s。
+msg.vmui.linux.theseOptionsAreNotPeriod	%s 虚拟机不支持这些选项。
+msg.vmui.linux.onlyWithTools	这些选项仅在 %s 正在虚拟机中运行时才会生效。
+msg.vmui.linux.vncConnections	VNC 连接
+msg.vmui.linux.enabled	已启用
+msg.vmui.linux.disabled	已禁用
+msg.vmui.linux.thePasswordsYouHavePeriod	您输入的密码不匹配。
+msg.vmui.linux.cancel.accel	取消(_C)
+msg.vmui.linux.enableVncConnections	启用 VNC 连接(_E)
+msg.vmui.linux.viewVncConnections	查看 VNC 连接(_V)
+msg.vmui.linux.portColon.accel	端口(_T)：
+msg.vmui.linux.hostStats.datastore	数据存储
+msg.vmui.linux.hostStats.capacity	容量
+msg.vmui.linux.hostStats.free	可用
+msg.vmui.linux.hostStatsView.cpus	CPU：
+msg.vmui.linux.hostStatsView.memory	内存：
+msg.vmui.linux.hostStatsView.capacity	容量：
+msg.vmui.linux.hostStatsView.cpuUsage	CPU 使用率：
+msg.vmui.linux.hostStatsView.memoryUsage	内存使用率：
+msg.vmui.linux.vcStatsView.capacity	容量：
+msg.vmui.linux.vcStatsView.cpuUsage	CPU 使用率：
+msg.vmui.linux.vcStatsView.memoryUsage	内存使用率：
+msg.vmui.linux.hotkeyCtrlPlus	Ctrl + 
+msg.vmui.linux.hotkeyShiftPlus	Shift + 
+msg.vmui.linux.hotkeyAltPlus	Alt + 
+msg.vmui.linux.hotkeySuperPlus	Win/Super + 
+msg.vmui.linux.enterNewHotkey	输入新的热键...
+msg.vmui.linux.hotkeyDisabled	已禁用
+msg.vmui.linux.remoteDisplay	VNC 连接
+msg.vmui.linux.actions.vmVNCSettings.tooltip	编辑 VNC 设置
+msg.vmui.linux.actions.vmVNCSettings	设置(_S)...
+msg.vmui.linux.wizard.theVirtualMachinePeriod	您要克隆的虚拟机是链接克隆。从链接克隆创建完整克隆将解析所有链接。生成的虚拟机将不再被链接，并且需要更多磁盘空间。
+msg.vmui.linux.wizard.youHaveSelectedToColon	您已选择使用以下信息创建完整的虚拟机克隆：
+msg.vmui.linux.wizard.thisWizardWillHelpPeriod	此向导将帮助您创建此虚拟机的副本。\n\n如果您打算让其他用户从此虚拟机创建克隆，应在“虚拟机”>“设置”>“选项”>“高级”下启用模板模式。
+msg.vmui.linux.wizard.cloneType	克隆类型
+msg.vmui.linux.wizard.aLinkedCloneIsAReferencePeriod	链接克隆是指向原始虚拟机的引用，存储时占用的磁盘空间较少。但是，如果没有原始虚拟机则无法运行。
+msg.vmui.linux.wizard.createALinkedClone.accel	创建链接克隆(_L)
+msg.vmui.linux.wizard.aFullCloneIsACompletePeriod	完整克隆是原始虚拟机当前状态的完整副本。虚拟机完全独立，存储时需要更多磁盘空间。
+msg.vmui.linux.wizard.createAFullClone.accel	创建完整克隆(_F)
+msg.vmui.linux.wizard.name	名称
+msg.vmui.linux.wizard.location	位置
+msg.vmui.linux.wizard.browseForVirtualMachine	浏览虚拟机位置
+msg.vmui.linux.wizard.path	路径
+msg.vmui.linux.wizard.cloneFrom	克隆源
+msg.vmui.linux.wizard.thisVirtualMachinePeriod	此虚拟机是模板。只能从快照对其进行克隆。
+msg.vmui.linux.wizard.creatingALinkedClonePeriod	从当前状态创建链接克隆将创建新快照。
+msg.vmui.linux.wizard.theCurrentStateIn.accel	虚拟机中的当前状态(_U)
+msg.vmui.linux.wizard.anExistingSnapshot.accel	现有快照（仅限已关机）(_S)
+msg.vmui.linux.wizard.descriptionColon	描述：
+msg.vmui.linux.wizard.targetVirtualMachine	目标虚拟机
+msg.vmui.linux.wizard.cloneThisVirtualMachinePeriod	在更改硬件配置之前克隆此虚拟机。原始虚拟机将保持不变。
+msg.vmui.linux.wizard.createANewCloneOf.accel	为此虚拟机创建新克隆(_E)
+msg.vmui.linux.wizard.changeTheHardwarePeriod	更改此虚拟机的硬件配置。可能会移除或更改某些硬件功能。
+msg.vmui.linux.wizard.alterThisVirtualMachine.accel	更改此虚拟机(_A)
+msg.vmui.linux.convertHw.readonly	您要修改的虚拟机为只读，无法就地更改。
+msg.vmui.linux.convertHw.cantClone	您要修改的虚拟机无法克隆。
+msg.vmui.linux.wizard.changesToApply	要应用的更改
+msg.vmui.linux.wizard.cloneDestination	克隆目标
+msg.vmui.linux.wizard.existingDiskFile	现有磁盘文件
+msg.vmui.linux.wizard.diskFile	磁盘文件
+msg.vmui.linux.wizard.createVirtualDisk	创建虚拟磁盘
+msg.vmui.linux.wizard.openExistingVirtual	打开现有虚拟磁盘
+msg.vmui.linux.wizard.chooseRawDiskFile	浏览虚拟磁盘文件
+msg.vmui.linux.wizard.device.STR	设备：%s
+msg.vmui.linux.wizard.failedToLoadPartitions	加载设备 %s 的分区失败：%s
+msg.vmui.linux.wizard.disk	磁盘
+msg.vmui.linux.wizard.aVirtualMachineIsPeriod	虚拟机由主机文件系统上的一个或多个文件组成，这些文件在客户机操作系统中将显示为一个硬盘。虚拟磁盘可以轻松地在同一主机上或在不同主机之间复制或移动。
+msg.vmui.linux.wizard.createANewVirtual.accel	创建新的虚拟磁盘(_V)
+msg.vmui.linux.wizard.useAnExistingVirtual.accel	使用现有虚拟磁盘(_E)
+msg.vmui.linux.wizard.useAPhysicalDiskfor.accel	使用物理磁盘（供高级用户使用）(_U)
+msg.vmui.linux.wizard.physicalDisk.encrypted	加密的虚拟机无法使用物理磁盘。
+msg.vmui.linux.wizard.device	设备
+msg.vmui.linux.wizard.usage	用法
+msg.vmui.linux.wizard.useEntireDisk.accel	使用整个磁盘(_D)
+msg.vmui.linux.wizard.useIndividualPartitions.accel	使用单个分区(_U)
+msg.vmui.linux.wizard.partitions	分区
+msg.vmui.linux.wizard.noNVMeSupportGos	%s 不支持 NVMe 磁盘。
+msg.vmui.linux.wizard.noIDEWhilePoweredOn	虚拟机开机时无法添加 IDE 磁盘。
+msg.vmui.linux.wizard.noNVMeWhilePoweredOn	虚拟机开机时无法添加 NVMe 磁盘。
+msg.vmui.linux.wizard.virtualDiskType	虚拟磁盘类型
+msg.vmui.linux.wizard.ide.accel	IDE(_I)
+msg.vmui.linux.wizard.scsirecommended.accel	SCSI（推荐）(_S)
+msg.vmui.linux.wizard.sata.accel	SATA(_A)
+msg.vmui.linux.wizard.nvme.accel	NVMe(_V)
+msg.vmui.linux.wizard.diskSize	磁盘大小
+msg.vmui.linux.wizard.maxDiskSizeGB.accel	最大磁盘大小（GB）(_S)：
+msg.vmui.linux.wizard.allocateAllDiskSpace.accel	立即分配所有磁盘空间(_A)
+msg.vmui.linux.wizard.storeDiskAsSingleFile.accel	将虚拟磁盘存储为单个文件(_L)
+msg.vmui.linux.wizard.splitDiskIntoMultipleFiles.accel	将虚拟磁盘拆分为多个文件(_M)
+msg.vmui.linux.wizard.filename.accel	文件名(_I)：
+msg.vmui.linux.wizard.encryptionPageDescForVTPMSupportedGOS	此客户机操作系统需要虚拟 TPM（可信平台模块）。\n\n虚拟 TPM 的数据必须使用密码加密。请务必在安全的位置记下此密码。没有密码将无法使用此虚拟机。
+msg.vmui.linux.wizard.import.precheckResult	引用的网络文件
+msg.vmui.linux.wizard.import.precheckWarning	此包引用了网络文件，访问网络文件可能会将安全信息暴露给不受信任的服务器，并且网络文件可能会损害您的计算机。
+msg.vmui.linux.wizard.import.vms	要导入的虚拟机
+msg.vmui.linux.wizard.import.colvmname	虚拟机名称
+msg.vmui.linux.wizard.import.storagepath	所选虚拟机的存储位置
+msg.vmui.linux.wizard.import.path	路径：
+msg.vmui.linux.wizard.import.deploymentoptions	部署选项
+msg.vmui.linux.wizard.import.deploymentoptionsdescription	选项说明
+msg.vmui.linux.wizard.import.propertyWarning	虚拟机将在部署后开机。\n在 vCenter 设备首次开机后，这些属性可能需要一段时间才能生效，因此请耐心等待，不要关闭该设备的电源。
+msg.vmui.linux.wizard.import.pwdmismatch	属性“%s”的密码不匹配。请在两个文本框中键入相同的密码。
+msg.vmui.linux.wizard.import.errmsgcreatefolderfailed	创建文件夹失败：%s
+msg.vmui.linux.wizard.import.name	导入虚拟机
+msg.vmui.linux.wizard.import.contImport	继续导入这些引用的网络文件
+msg.vmui.linux.wizard.import.agreeeula	我接受许可协议中的条款。
+msg.vmui.linux.wizard.import.browsestoragepath	浏览存储位置
+msg.vmui.linux.import.encryptionPageDescForNonVTPMSupportedGOS	您可以选择加密虚拟机文件以提高安全性。
+msg.vmui.linux.wizard.thisWizardWillGuidePeriod	此向导将引导您完成向虚拟机添加新硬件的步骤。\n\n要开始，请选择要添加的硬件类型。
+msg.vmui.linux.wizard.hardwareCompatibilityColon.accel	硬件兼容性(_T)：
+msg.vmui.linux.wizard.virtualMachineHardware	虚拟机硬件兼容性
+msg.vmui.linux.wizard.hwVerCompatibleProducts	兼容的产品
+msg.vmui.linux.wizard.hwVerLimitations	限制
+msg.vmui.linux.wizard.searchvm.selectlocation	选择要扫描的位置：
+msg.vmui.linux.wizard.searchvm.searchresult	要添加的虚拟机
+msg.vmui.linux.wizard.searchvm.colvmname	虚拟机名称
+msg.vmui.linux.wizard.searchvm.colvmpath	路径
+msg.vmui.linux.wizard.searchvm.addtolibraryoption	添加到库的选项
+msg.vmui.linux.wizard.searchvm.addto	添加到：
+msg.vmui.linux.wizard.searchvm.progress	进度
+msg.vmui.linux.wizard.searchvm.colvmnprogressname	虚拟机名称
+msg.vmui.linux.wizard.searchvm.colvmnstatus	状态
+msg.vmui.linux.wizard.searchvm.colvmndescription	说明
+msg.vmui.linux.wizard.searchvm.errmsgfoldernotexist	目录“%s”不存在。
+msg.vmui.linux.wizard.searchvm.errmsgfailedtostartscan	启动扫描失败。
+msg.vmui.linux.wizard.searchvm.progresswaiting	等待中
+msg.vmui.linux.wizard.searchvm.errmsgcreatefolderfailed	创建文件夹失败：%s
+msg.vmui.linux.wizard.searchvm.name	扫描虚拟机向导
+msg.vmui.linux.wizard.searchvm.searchlocation	浏览虚拟机位置
+msg.vmui.linux.wizard.searchvm.librarykeephierarchy	在库中保留文件夹的层次结构
+msg.vmui.linux.wizard.searchvm.stopsearch	停止搜索
+msg.vmui.linux.wizard.searchvm.copylocation	浏览位置
+msg.vmui.linux.wizard.searchvm.copyoption	复制到：
+msg.vmui.linux.wizard.searchvm.copykeephierarchy	在目标位置保留文件夹的层次结构
+msg.vmui.linux.wizard.searchvm.stopprocess	停止处理
+msg.vmui.linux.wizard.shareVM.newName	共享虚拟机名称(_S)
+msg.vmui.linux.wizard.shareVM.newLocation	共享虚拟机位置
+msg.vmui.linux.wizard.shareVM.sharingMode	虚拟机共享模式
+msg.vmui.linux.wizard.shareVM.movePg.mMoveRadio	移动虚拟机(_M)
+msg.vmui.linux.wizard.shareVM.movePg.mCloneRadio	为此虚拟机创建新克隆(_C)
+msg.vmui.linux.wizard.shareVM.movePg.cantShare	此虚拟机既无法移动也无法克隆，当前无法共享。
+msg.vmui.linux.wizard.shareVM.welcome.featureHeader	如果选择共享此虚拟机，您将获得某些功能但会失去其他功能：
+msg.vmui.linux.wizard.shareVM.welcome.featuresAdded	获得的功能
+msg.vmui.linux.wizard.shareVM.welcome.featuresLost	失去的功能
+msg.vmui.linux.wizard.sharing.name	共享虚拟机向导
+msg.vmui.linux.wizard.shareVM.featureChange	功能更改
+msg.vmui.linux.wizard.unshareVM.movePg.invalidPath	所选目录“%s”无效。请选择其他目录。
+msg.vmui.linux.wizard.unshareVM.movePg.badPath	必须将虚拟机移出共享虚拟机目录 (%s)。
+msg.vmui.linux.wizard.unsharing.move.header	共享虚拟机目录专用于可供远程用户使用的虚拟机。如果要停止共享此虚拟机，则需要将其重新定位。
+msg.vmui.linux.wizard.shareVM	更新虚拟机位置(_U)
+msg.vmui.linux.wizard.unsharing.name	停止共享虚拟机向导
+msg.vmui.linux.wizard.unsharing.file	选择虚拟机位置
+msg.vmui.linux.wizard.virtualMachineConfiguration	虚拟机配置
+msg.vmui.linux.wizard.typicalrecommended.accel	典型（推荐）(_T)
+msg.vmui.linux.wizard.customadvanced.accel	自定义（高级）(_C)
+msg.vmui.linux.wizard.hostSelection	主机选择
+msg.vmui.linux.wizard.host.accel	主机(_O)：
+msg.vmui.linux.wizard.hosts.loading	正在加载...
+msg.vmui.linux.wizard.datastoreSelection	数据存储选择
+msg.vmui.linux.wizard.selectHost	选择主机
+msg.vmui.linux.wizard.networkConnection	网络连接
+msg.vmui.linux.wizard.network.customRemote	命名网络(_N)
+msg.vmui.linux.wizard.useBridgedNetworking.accel	使用桥接网络(_R)
+msg.vmui.linux.wizard.giveTheGuestOperatingPeriod	使用主机的 IP 地址，使客户机操作系统能够访问主机计算机的 Wi-Fi 或以太网网络连接。
+msg.vmui.linux.wizard.useNetworkAddress.accel	使用网络地址转换 (NAT)(_A)
+msg.vmui.linux.wizard.connectTheGuestOperatingPeriod	将客户机操作系统连接到主机计算机上的专用虚拟网络。
+msg.vmui.linux.wizard.useHostonlyNetworking.accel	使用仅主机网络(_O)
+msg.vmui.linux.wizard.network.custom.explanation	使用已在虚拟机设置编辑器中指定的自定义虚拟网络。
+msg.vmui.linux.wizard.network.custom	自定义
+msg.vmui.linux.wizard.doNotUseANetworkConnection.accel	不使用网络连接(_D)
+msg.vmui.linux.wizard.installTheGuestOperating	安装客户机操作系统
+msg.vmui.linux.wizard.aNewVirtualMachineColon	新的虚拟机就像一台具有空白硬盘的物理计算机。安装操作系统的典型方法是：
+msg.vmui.linux.wizard.b1bInsertTheInstallationPeriod	<b>1.</b> 插入安装 CD-ROM 或 DVD。\n<b>2.</b> 打开虚拟机的电源。\n<b>3.</b> 像在物理计算机上一样安装操作系统。
+msg.vmui.linux.wizard.seeTheaHrefguestOperatingPeriod.STR	有关详细信息，请参阅<a href="%s">客户机操作系统安装指南</a>。
+msg.vmui.linux.wizard.installVmwareTools	安装 VMware Tools
+msg.vmui.linux.wizard.specialDeviceDriversColon	特殊设备驱动程序和实用程序可帮助虚拟机更无缝地与主机计算机配合使用。要安装它们：
+msg.vmui.linux.wizard.b1bPowerOnTheVirtualPeriod	<b>1.</b> 打开虚拟机的电源。\n<b>2.</b> 让客户机操作系统加载，如有必要请登录。\n<b>3.</b> 在菜单栏中，选择“虚拟机”>“安装 VMware Tools”。
+msg.vmui.linux.wizard.seeTheaHrefvmwarePeriod.STR	有关详细信息，请参阅<a href="%s">VMware Tools 安装指南</a>。
+msg.vmui.linux.wizard.dontShowThisPageAgain.accel	不再显示此页(_S)
+msg.vmui.linux.wizard.ioError.busLogicSCSI	64 位虚拟机不支持 BusLogic SCSI 控制器。
+msg.vmui.linux.wizard.ioError.busLogicWin32	%s 虚拟机不支持 BusLogic SCSI 控制器。
+msg.vmui.linux.wizard.controller.busLogicMaxSize	BusLogic SCSI 控制器仅支持最大 2 TB 的磁盘大小。
+msg.vmui.linux.wizard.ioError.lsiLogicWin8	%s 虚拟机不支持 LSI Logic SCSI 控制器。
+msg.vmui.linux.wizard.ioError.lsiLogicSAS	%s 虚拟机不支持 LSI Logic SAS 控制器。
+msg.vmui.linux.wizard.ioError.pvSCSI	简易安装不支持 %s 虚拟机上的半虚拟化 SCSI 控制器。
+msg.vmui.linux.wizard.buslogic.accel	BusLogic(_B)
+msg.vmui.linux.wizard.lsiLogic.accel	LSI Logic(_L)
+msg.vmui.linux.wizard.lsiLogicSAS.accel	LSI Logic SAS(_S)
+msg.vmui.linux.wizard.pvScsi.accel	半虚拟化 SCSI(_P)
+msg.vmui.linux.wizard.buslogicRecommended.accel	BusLogic（推荐）(_B)
+msg.vmui.linux.wizard.lsiLogicRecommended.accel	LSI Logic（推荐）(_L)
+msg.vmui.linux.wizard.lsiLogicSasRecommended.accel	LSI Logic SAS（推荐）(_S)
+msg.vmui.linux.wizard.pvScsiRecommended.accel	半虚拟化 SCSI（推荐）(_P)
+msg.vmui.linux.wizard.folderSelection	清单文件夹
+msg.vmui.linux.wizard.vmName	虚拟机名称
+msg.vmui.linux.wizard.name.accel	名称(_A)：
+msg.vmui.linux.wizard.location.accel	位置(_L)：
+msg.vmui.linux.wizard.prefsTip	默认位置可以在“编辑”>“首选项”中更改。
+msg.vmui.linux.wizard.firmwareTypes	固件类型
+msg.vmui.linux.wizard.ioControllerTypes	I/O 控制器类型
+msg.vmui.linux.wizard.scsiControllerColon	SCSI 控制器：
+msg.vmui.linux.wizard.encryptionPageDescForNonVTPMSupportedGOS	您可以选择加密虚拟机文件以提高安全性。

@@ -1,0 +1,286 @@
+msg.cui.wizard.shareVM.welcome.fFolderSharing	共享文件夹
+msg.cui.wizard.shareVM.welcome.feature.remoteVM	远程虚拟机访问
+msg.cui.wizard.shareVM.welcome.feature.uac	用户访问控制
+msg.cui.wizard.shareVM.welcome.feature.autoStartStop	虚拟机自动启动和停止
+msg.cui.wizard.shareVM.welcome.fAutoprotect	自动保护
+msg.cui.wizard.shareVM.welcome.fDnD	拖放
+msg.cui.wizard.shareVM.welcome.fCopyPaste	复制和粘贴
+msg.cui.wizard.vm.easyinstall.fail.cfg	无法初始化简易安装。如果此错误持续存在，可能需要重新安装 %s。
+msg.cui.wizard.vm.easyinstall.fail.flpImage	无法为简易安装创建虚拟软盘映像文件。如果此错误持续存在，可能需要重新安装 %s。
+msg.cui.wizard.vm.easyinstall.lin.failScanIso	无法准备 %s 处的安装光盘。请确保使用的是有效的 Linux 安装光盘。如果此错误持续存在，可能需要重新安装 %s。
+msg.cui.wizard.vm.easyinstall.fail.flpSettings	无法为简易安装创建虚拟软盘设置。如果此错误持续存在，可能需要重新安装 %s。
+msg.cui.wizard.vm.easyinstall.lin.failMasterIso	无法创建用于存储简易安装设置的 ISO。如果此错误持续存在，可能需要重新安装 %s。
+msg.cui.wizard.clone.welcome.title	欢迎使用克隆虚拟机向导
+msg.cui.wizard.clone.src.subtitle	要从哪里克隆此虚拟机？
+msg.cui.wizard.clone.src.title	克隆源
+msg.cui.wizard.clone.type.subtitle	要如何克隆此虚拟机？
+msg.cui.wizard.clone.type.title	克隆类型
+msg.cui.wizard.clone.name.subtitle	要为此虚拟机使用什么名称？
+msg.cui.wizard.clone.name.title	命名克隆
+msg.cui.wizard.clone.confirm.subtitle	是否准备就绪进行克隆？
+msg.cui.wizard.clone.confirm.title	摘要
+msg.cui.wizard.clone.progress.title	正在克隆虚拟机
+msg.cui.wizard.clone.error.pathExists	无法创建克隆：指定的路径已存在
+msg.cui.wizard.clone.defaultformat	%s 的克隆 (%%d)
+msg.cui.wizard.clone.defaultname	%s 的克隆
+msg.cui.wizard.clone.stage.preparing	正在准备克隆操作
+msg.cui.wizard.clone.stage.snapshotting	正在为虚拟机拍摄快照
+msg.cui.wizard.clone.stage.cloning	正在克隆虚拟机
+msg.cui.wizard.clone.stage.done	完成
+msg.cui.wizard.convertHardware.welcome.title	欢迎使用更改硬件兼容性向导
+msg.cui.wizard.convertHardware.selectFormat.subtitle	要转换为哪种兼容性格式？
+msg.cui.wizard.convertHardware.selectFormat.title	选择虚拟机硬件兼容性
+msg.cui.wizard.convertHardware.askClone.subtitle	要在进行更改前克隆此虚拟机吗？
+msg.cui.wizard.convertHardware.askClone.title	转换前克隆
+msg.cui.wizard.convertHardware.nameClone.subtitle	要为此虚拟机使用什么名称？
+msg.cui.wizard.convertHardware.nameClone.title	命名克隆
+msg.cui.wizard.convertHardware.summary.subtitle	是否准备就绪转换此虚拟机？
+msg.cui.wizard.convertHardware.summary.title	查看更改
+msg.cui.wizard.convertHardware.confirm.title	正在转换虚拟机
+msg.cui.wizard.convertHardware.welcome	欢迎使用更改硬件兼容性向导。此向导允许您将虚拟机从一个虚拟硬件代次升级或更改为另一个代次，使虚拟机能够与不同代次的产品配合使用。
+msg.cui.wizard.convertHardware.sharedWarning	\n警告：这是共享虚拟机。共享虚拟机的硬件兼容性无法降级。
+msg.cui.wizard.convertHardware.remoteWarning	\n警告：这是远程虚拟机。远程虚拟机的硬件兼容性无法降级。
+msg.cui.wizard.convertHardware.noTarget	无法在此主机上更改此虚拟机的硬件兼容性。
+msg.cui.wizard.convertHardware.tooNewVersion	您正尝试更改此版本 VMware Workstation 无法识别的虚拟机的硬件兼容性。要执行此操作，必须使用创建该虚拟机的 VMware Workstation 版本来更改其硬件兼容性。
+msg.cui.wizard.convertHardware.oldVersion	您正尝试更改此版本 VMware Workstation 不支持的虚拟机的硬件兼容性。此版本仅支持由 VMware Workstation 4.0 及更高版本创建的虚拟机。
+msg.cui.wizard.convertHardware.notConvertible	由于此虚拟机具有旧版快照，无法更改其硬件兼容性。
+msg.cui.wizard.convertHardware.stage.cloning	正在克隆虚拟机
+msg.cui.wizard.convertHardware.stage.reconfig	正在重新配置虚拟硬件
+msg.cui.wizard.convertHardware.stage.consolidating	正在整合磁盘
+msg.cui.wizard.convertHardware.stage.done	完成
+msg.cui.wizard.convertHardware.summaryHwVersion	新的虚拟机版本：%s\n
+msg.cui.wizard.convertHardware.vcpuChange	   将处理器数量减少到 %d\n
+msg.cui.wizard.convertHardware.memoryChange	   将内存减少到 %u MB\n
+msg.cui.wizard.convertHardware.graphicsMemoryChange	   将共享图形内存减少到 %u MB \n
+msg.cui.wizard.convertHardware.summaryHwAdd	   添加：%s\n
+msg.cui.wizard.convertHardware.summaryHwRemove	   移除：%s\n
+msg.cui.wizard.convertHardware.noSnapshots	您正在降级到不支持快照的版本，但此虚拟机具有快照或录制。降级前请移除快照。
+msg.cui.wizard.convertHardware.noIDEsupport	您正在降级到不支持 IDE 磁盘的版本。要降级此虚拟机，请移除所有 IDE 磁盘。
+msg.cui.wizard.convertHardware.noSATAsupport	您正在降级到不支持 SATA 设备的版本。要降级此虚拟机，请移除所有 SATA 磁盘。
+msg.cui.wizard.convertHardware.disksTooBig.ide	您正在降级到不支持大于 %s 的 IDE 磁盘的版本。要降级此虚拟机，请移除该磁盘。
+msg.cui.wizard.convertHardware.disksTooBig.scsi	您正在降级到不支持大于 %s 的 SCSI 磁盘的版本。要降级此虚拟机，请移除该磁盘。
+msg.cui.wizard.convertHardware.disksTooBig.sata	您正在降级到不支持大于 %s 的 SATA 磁盘的版本。要降级此虚拟机，请移除该磁盘。
+msg.cui.wizard.convertHardware.disksTooBig.nvme	您正在降级到不支持大于 %s 的 NVMe 磁盘的版本。要降级此虚拟机，请移除该磁盘。
+msg.cui.wizard.convertHardware.removeDisks	- 您选择的硬件版本不支持此虚拟机的一个或多个硬盘。\n
+msg.cui.wizard.convertHardware.noLSISASSupport	- 您正在降级到不支持 LSI Logic SAS SCSI 控制器的版本。\n
+msg.cui.wizard.convertHardware.encrypted	- 您正在降级已加密的虚拟机。\n
+msg.cui.wizard.convertHardware.noGuestOSInVersionFmt	- 您正在降级到不支持 %s 作为客户机操作系统的版本。\n
+msg.cui.wizard.convertHardware.noEFIsupport	- 您正在降级到不支持启动 EFI 虚拟机的版本。\n
+msg.cui.wizard.convertHardware.noVTPMsupport	- 您正在降级到不支持可信平台模块设备的版本。\n
+msg.cui.wizard.convertHardware.mightNotBootFmt	由于以下原因，降级后虚拟机可能无法启动：\n\n%s\n是否继续？
+msg.cui.wizard.convertHardware.maybeIncompatibleFmt	虽然此版本的 %s 能够使用降级后的虚拟机，但由于以下原因，较旧的版本和其他产品可能无法正常使用它：\n\n%s\n是否继续？
+msg.cui.wizard.convertHardware.noGuestOSInVersion	您正在降级到不支持 %s 作为客户机操作系统的版本。
+msg.cui.wizard.convertHardware.error.pathExists	无法创建克隆：指定的路径已存在
+msg.cui.wizard.convertHardware.defaultformat	%s 的克隆 (%%d)
+msg.cui.wizard.convertHardware.defaultname	%s 的克隆
+msg.cui.wizard.disk.needPartition	必须至少选择一个分区。
+msg.cui.wizard.vm.pathNotWritable	无法写入路径“%s”。请输入其他路径并重试。
+msg.cui.wizard.youMustSpecifyADisk	必须指定磁盘设备才能继续
+msg.cui.wizard.disk.file.physicaldesc	此虚拟磁盘文件将存储所选物理磁盘的分区信息。
+msg.cui.wizard.disk.file.splitvirtualdescFmt	将使用多个磁盘文件创建一个 %g GB 的虚拟磁盘。这些磁盘文件将基于此文件名自动命名。
+msg.cui.wizard.disk.file.virtualdescFmt	将使用此文件名创建一个 %g GB 的磁盘文件。
+msg.cui.wizard.disk.source.subtitle	要使用哪个磁盘？
+msg.cui.wizard.disk.source.title	选择磁盘
+msg.cui.wizard.disk.bus.subtitle	要创建哪种类型的磁盘？
+msg.cui.wizard.disk.bus.title	选择磁盘类型
+msg.cui.wizard.disk.capacity.subtitle	要将此磁盘设置为多大？
+msg.cui.wizard.disk.capacity.title	指定磁盘容量
+msg.cui.wizard.disk.partitions.subtitle	要将哪些分区用于此虚拟机？
+msg.cui.wizard.disk.partitions.title	选择物理磁盘分区
+msg.cui.wizard.disk.device.subtitle	要让此虚拟机使用哪个本地硬盘？
+msg.cui.wizard.disk.device.title	选择物理磁盘
+msg.cui.wizard.disk.XXX	XXX
+msg.cui.wizard.disk.errorDiskSizeTooLarge	指定的磁盘大小超出了此虚拟磁盘的允许大小。请指定介于 %.3f GB 和 %.1f GB 之间的大小。
+msg.cui.wizard.disk.errorDiskSizeTooSmall	指定的磁盘大小小于此虚拟磁盘的允许大小。请指定介于 %.3f GB 和 %.1f GB 之间的大小。
+msg.cui.wizard.disk.errorBigDiskRequiresSplit	指定的虚拟磁盘大小要求拆分磁盘。请选择将磁盘存储为多个文件，或将磁盘大小减小到小于 %u GB。
+msg.cui.wizard.disk.errorLargeBootDiskWithEasyInstallFmt	指定的虚拟磁盘大小与简易安装不兼容，可能会导致客户机无法正常启动。要使用简易安装，磁盘必须小于 %s。
+msg.cui.wizard.disk.warningLargeBootDiskFmt	某些客户机操作系统可能难以使用大于 %s 的启动磁盘。是否继续？
+msg.cui.wizard.disk.tooLarge	所选虚拟磁盘对于此 %s 虚拟机来说过大。
+msg.cui.wizard.disk.tooSmall	所选虚拟磁盘对于此 %s 虚拟机来说过小。
+msg.cui.wizard.disk.vmIsEncrypted	所选虚拟磁盘未加密，无法与已加密的虚拟机一起使用。
+msg.cui.wizard.disk.newTitle	指定磁盘文件
+msg.cui.wizard.disk.newSubtitle	要将磁盘文件存储在何处？
+msg.cui.wizard.disk.existingTitle	选择现有磁盘
+msg.cui.wizard.disk.existingSubtitle	要使用哪个先前配置的磁盘？
+msg.cui.wizard.disk.invalidFile	输入的磁盘文件无效。必须输入有效的文件名。
+msg.cui.wizard.disk.invalidName	磁盘文件名中包含无效字符。不能使用字符 %s
+msg.cui.wizard.disk.split	拆分
+msg.cui.wizard.disk.monolithic	单个文件
+msg.cui.wizard.disk.sparse	预分配
+msg.cui.wizard.disk.existingDiskFormat	现有磁盘 %s
+msg.cui.wizard.disk.wholeDisk	物理磁盘 %s
+msg.cui.wizard.disk.partitionFormatNoneSelected	物理磁盘 %s，未选择分区
+msg.cui.wizard.disk.partitionFormat	物理磁盘 %s：%s
+msg.cui.wizard.disk.noSpaceAvailable	添加新磁盘失败。磁盘控制器已满。必须从控制器中移除其他设备才能添加此设备。
+msg.cui.wizard.vm.guestinfo.account.header.windows	个性化 Windows
+msg.cui.wizard.vm.guestinfo.account.header.linux	个性化 Linux
+msg.cui.wizard.hardware.maxreached.vtpm	虚拟机必须已加密并使用 UEFI 固件。
+msg.cui.wizard.hardware.maxreached	已达到最大限制
+msg.cui.wizard.hardware.noHotAdd	在虚拟机关闭电源之前无法添加
+msg.cui.wizard.hardware.notsupported	不支持
+msg.cui.wizard.hardware.type.subtitle	要安装哪种类型的硬件？
+msg.cui.wizard.hardware.type.title	硬件类型
+msg.cui.wizard.hardware.disk	硬盘
+msg.cui.wizard.hardware.cdrom	CD/DVD 驱动器
+msg.cui.wizard.hardware.floppy	软盘驱动器
+msg.cui.wizard.hardware.ethernet	网络适配器
+msg.cui.wizard.hardware.usb	USB 控制器
+msg.cui.wizard.hardware.sound	声卡
+msg.cui.wizard.hardware.parallel	并行端口
+msg.cui.wizard.hardware.serial	串行端口
+msg.cui.wizard.hardware.printer	打印机
+msg.cui.wizard.hardware.genericscsi	通用 SCSI 设备
+msg.cui.wizard.hardware.vtpm	可信平台模块
+msg.cui.wizard.import.vapp.subtitle	选择要导入的虚拟机。
+msg.cui.wizard.import.vapp.title	选择虚拟机
+msg.cui.wizard.import.name.subtitle	为新虚拟机提供名称和本地存储路径。
+msg.cui.wizard.import.name.title	存储新虚拟机
+msg.cui.wizard.import.eula.subtitle	接受最终用户许可协议。
+msg.cui.wizard.import.eula.title	最终用户许可协议
+msg.cui.wizard.import.precheck.subtitle	检查引用的网络文件的安全性。
+msg.cui.wizard.import.precheck.title	引用的网络文件
+msg.cui.wizard.import.deploymentoption.subtitle	选择部署选项。
+msg.cui.wizard.import.deploymentoption.title	部署选项
+msg.cui.wizard.vm.encryption.subtitle	要如何加密此虚拟机？
+msg.cui.wizard.vm.encryption.title	配置加密
+msg.cui.wizard.import.property.subtitle	此虚拟机的其他属性。
+msg.cui.wizard.import.property.title	属性
+msg.cui.wizard.vm.encryption.passwordempty	加密密码不能为空
+msg.cui.wizard.vm.encryption.minpasswordlength	加密密码必须至少包含 %d 个字符
+msg.cui.wizard.vm.encryption.passwordmismatch	加密密码不匹配
+msg.cui.wizard.import.error.pathExists	指定的路径已存在
+msg.cui.wizard.nameHelper.nameFmt	%s (%%d)
+msg.cui.wizard.new.longLocation	所选名称和位置会导致文件路径长度超出系统允许的范围。请缩短名称和/或位置
+msg.cui.wizard.new.pathExists	路径“%s”已存在。请输入其他路径并重试。
+msg.cui.wizard.new.notWritable	无法写入路径“%s”。请输入其他路径并重试。
+msg.cui.wizard.new.emptyDefault	无法确定所选主机的默认虚拟机位置。这很可能是权限不足导致的。
+msg.cui.wizard.new.emptyNameOrPath	必须指定虚拟机名称和路径。
+msg.cui.wizard.new.longName	名称“%s”过长，会导致系统中出现无效的文件路径。请缩短名称
+msg.cui.wizard.new.invalidPath	目录名“%s”不是有效路径。
+msg.cui.wizard.new.longDirectory	目录名“%s”过长，会导致系统中出现无效的文件路径。请缩短目录名
+msg.cui.wizard.new.invalidCharacters	虚拟机位置不能使用以下任何字符：%s
+msg.cui.wizard.new.pathValidationError	验证路径“%s”时出错：%s
+msg.cui.wizard.searchvm.welcome.subtitle	此向导将扫描系统，查找虚拟机库之外的虚拟机。
+msg.cui.wizard.searchvm.welcome.title	欢迎使用扫描虚拟机向导
+msg.cui.wizard.searchvm.searchresult.subtitle	选择要添加到库中的虚拟机。
+msg.cui.wizard.searchvm.searchresult.title	选择虚拟机
+msg.cui.wizard.searchvm.copyoptions.subtitle	选择是将虚拟机复制到本地磁盘，还是从当前位置将其添加到库中。
+msg.cui.wizard.searchvm.copyoptions.title	复制到本地磁盘选项
+msg.cui.wizard.searchvm.progress.subtitle	显示操作的进度和结果。
+msg.cui.wizard.searchvm.progress.title	结果
+msg.cui.wizard.searchvm.progresscopying	正在复制：%d%%
+msg.cui.wizard.searchvm.progressdone	完成
+msg.cui.wizard.searchvm.progressfailed	失败
+msg.cui.wizard.searchvm.progresscancelled	已取消
+msg.cui.wizard.searchvm.errmsgaddtoinventoryfailed	添加到库失败。
+msg.cui.wizard.searchvm.errmsgcreatefolderfailed	创建文件夹失败：%s。
+msg.cui.wizard.shareVM.welcome.subtitle	此向导将帮助您配置虚拟机，以便远程用户进行访问。
+msg.cui.wizard.shareVM.welcome.title	欢迎使用共享虚拟机向导
+msg.cui.wizard.shareVM.moveType.subtitle	选择如何将虚拟机传输到“共享虚拟机”目录。
+msg.cui.wizard.shareVM.moveType.title	选择传输类型
+msg.cui.wizard.shareVM.progress.title	正在共享虚拟机
+msg.cui.wizard.shareVM.error.cantFullClone	无法为此虚拟机创建完整克隆。
+msg.cui.wizard.shareVM.error.cantLinkedClone	无法为此虚拟机创建链接克隆。
+msg.cui.wizard.shareVM.error.cantMove	无法移动此虚拟机。
+msg.cui.wizard.shareVM.error.invalidPath	虚拟机路径无效。
+msg.cui.wizard.shareVM.error.invalidVMName	虚拟机名称无效。
+msg.cui.wizard.shareVM	虚拟机已准备就绪，可以共享。
+msg.cui.wizard.shareVM.defaultCloneFormat	%s 的克隆 (%%d)
+msg.cui.wizard.shareVM.defaultname	%s 的克隆
+msg.cui.wizard.shareVM.defaultformat	%s (%%d)
+msg.cui.wizard.shareVM.emptyName	虚拟机必须具有名称才能共享。
+msg.cui.wizard.shareVM.nameCollision	具有此名称的虚拟机已被共享。
+msg.cui.wizard.shareVM.error.pathExists	指定的路径已存在
+msg.cui.wizard.unshareVM.defaultformat	%s (%%d)
+msg.cui.wizard.unshareVM.welcome.subtitle	此向导帮助您将共享虚拟机转换为标准虚拟机。
+msg.cui.wizard.unshareVM.welcome.title	欢迎使用停止共享虚拟机向导
+msg.cui.wizard.unshareVM.moveType.subtitle	选择标准虚拟机的位置
+msg.cui.wizard.unshareVM.moveType.title	虚拟机位置
+msg.cui.wizard.unshareVM.progress.title	正在取消共享虚拟机
+msg.cui.wizard.upload.cnxHostname.empty	必须输入主机名或 IP 地址。
+msg.cui.wizard.upload.cnxUsername.empty	必须输入用户名。
+msg.cui.wizard.upload.cnxUsername.differs	您已作为“%s”连接到“%s”。要继续使用该用户吗？
+msg.cui.wizard.upload.connecting	正在验证与远程服务器的连接...
+msg.cui.wizard.upload.vdc.notSelected	必须选择目标 vDC。
+msg.cui.wizard.upload.destFolder.notSelected	必须选择目标文件夹。
+msg.cui.wizard.upload.loadingHosts	正在加载可用主机...
+msg.cui.wizard.upload.error	上载失败：%s。
+msg.cui.wizard.upload.name.needsTrim	虚拟机名称不能以空格开头或结尾。
+msg.cui.wizard.upload.nohoho	不支持上载到 %s。
+msg.cui.wizard.upload.cnxPage.subtitle	要将此虚拟机上载到何处？
+msg.cui.wizard.upload.cnxPage.title	选择目标服务器
+msg.cui.wizard.upload.newCnxPage.subtitle	为此服务器输入用户名和密码。
+msg.cui.wizard.upload.newCnxPage.title	新建服务器连接
+msg.cui.wizard.upload.location.title	选择目标位置
+msg.cui.wizard.upload.location.subtitle	要将上载的虚拟机存储在何处？
+msg.cui.wizard.upload.otherVSphereCnxTxt	其他 VMware vSphere 服务器
+msg.cui.wizard.upload.otherVCloudCnxTxt	其他 VMware vCloud Director 服务器
+msg.cui.wizard.vm.saveAbortFmt	无法创建新虚拟机：%s
+msg.cui.wizard.vm.welcome.title	欢迎使用新建虚拟机向导
+msg.cui.wizard.vm.guestid.title	客户机操作系统安装
+msg.cui.wizard.vm.welcome.subtitle	要使用哪种类型的配置？
+msg.cui.wizard.vm.inventory.subtitle	为此虚拟机选择位置
+msg.cui.wizard.vm.inventory.title	选择位置
+msg.cui.wizard.vm.host.subtitle	哪个主机将运行此虚拟机？
+msg.cui.wizard.vm.host.title	选择主机
+msg.cui.wizard.vm.datastore.subtitle	此虚拟机将存储在何处？
+msg.cui.wizard.vm.datastore.title	选择数据存储
+msg.cui.wizard.vm.version.subtitle	此虚拟机需要哪些硬件功能？
+msg.cui.wizard.vm.version.title	选择虚拟机硬件兼容性
+msg.cui.wizard.vm.guestid.subtitle	虚拟机就像一台物理计算机，它需要操作系统。将如何安装客户机操作系统？
+msg.cui.wizard.vm.guestos.subtitle	要在此虚拟机上安装哪个操作系统？
+msg.cui.wizard.vm.guestos.title	选择客户机操作系统
+msg.cui.wizard.vm.guestinfo.subtitle	这是用于安装 %s 的。
+msg.cui.wizard.vm.guestinfo.title	简易安装信息
+msg.cui.wizard.vm.name.subtitle	要为此虚拟机使用什么名称？
+msg.cui.wizard.vm.name.title	命名虚拟机
+msg.cui.wizard.vm.cpu.subtitle	为此虚拟机指定处理器数量。
+msg.cui.wizard.vm.cpu.title	处理器配置
+msg.cui.wizard.vm.memory.subtitle	要为此虚拟机使用多少内存？
+msg.cui.wizard.vm.memory.title	虚拟机的内存
+msg.cui.wizard.vm.network.subtitle	要添加哪种类型的网络？
+msg.cui.wizard.vm.network.title	网络类型
+msg.cui.wizard.disk.iocontroller.subtitle	SCSI 虚拟磁盘要使用哪种类型的 SCSI 控制器？
+msg.cui.wizard.disk.iocontroller.title	选择 I/O 控制器类型
+msg.cui.wizard.vm.firmware.subtitle	此虚拟机应具有哪种类型的启动设备？
+msg.cui.wizard.vm.firmware.title	固件类型
+msg.cui.wizard.vm.xxx	XXX
+msg.cui.wizard.vm.summary.title	准备创建虚拟机
+msg.cui.wizard.vm.success.subtitle	虚拟机创建成功。您仍需要安装操作系统和 VMware Tools。
+msg.cui.wizard.vm.success.title	虚拟机已创建
+msg.cui.wizard.vm.invalidPath	输入的虚拟机位置无效。
+msg.cui.wizard.vm.relativePath	输入的虚拟机位置无效。请确保该位置是绝对路径。
+msg.cui.wizard.vm.descriptionTypical	只需几个简单步骤即可创建 %s 虚拟机。
+msg.cui.wizard.vm.descriptionCustom	使用高级选项创建虚拟机：更改 SCSI 控制器和虚拟磁盘类型、指定与旧版 VMware 产品的兼容性等。
+msg.cui.wizard.vm.badEasyInstallDriverDir	输入的驱动程序位置无效。请确保输入的是您有权读取的目录位置。
+msg.cui.wizard.vm.easyInstallDriverHint	如果 Windows 安装程序未自动识别驱动程序，请在虚拟机开机后按 F6，以便手动选择正确的驱动程序。
+msg.cui.wizard.vm.summary.subtitle.easyInstall	单击“完成”创建虚拟机并开始安装 %s，然后安装 VMware Tools。
+msg.cui.wizard.vm.summary.subtitle.normalInstall	单击“完成”创建虚拟机并开始安装 %s。
+msg.cui.wizard.vm.summary.subtitle.noInstall	单击“完成”创建虚拟机。随后可以安装 %s。
+msg.cui.wizard.vm.noActiveHostOnDataCenter	此数据中心上没有活动主机，无法在此数据中心上创建新虚拟机。
+msg.cui.wizard.disk.vmdkAlreadyExists	您正尝试创建的虚拟机已存在。必须为虚拟机指定其他位置。
+msg.cui.wizard.vm.noGuestOSinVersionFmt	%s 不是 %s 虚拟机支持的客户机操作系统。除非升级其虚拟硬件，否则其某些功能可能无法正常工作。\n\n是否继续？
+msg.cui.wizard.vm.vmxdir.conflict	指定的位置似乎包含现有的虚拟机。将两台虚拟机安装在同一位置可能会导致问题，包括如果两台虚拟机同名则可能造成数据丢失。是否仍要使用此位置？
+msg.cui.wizard.vm.busLogicIncompatible	“%s”的安装程序可能未包含 BusLogic 控制器的驱动程序。您可能需要下载驱动程序或选择其他控制器。
+msg.cui.wizard.vm.busLogicIncompatibleUrlCaption	下载 BusLogic 驱动程序
+msg.cui.wizard.vm.busLogicVista	%s 不支持 BusLogic 控制器。请选择 LSI Logic 或 LSI Logic SAS。
+msg.cui.wizard.vm.legacyLsiLogic	您为 Workstation 4.x 虚拟机选择了 LSI Logic 控制器。此虚拟机将无法在 Workstation 4.0 或更早版本中运行。\n\n要创建与 Workstation 4.0 及更早版本兼容的虚拟机，请改为选择 BusLogic 控制器。
+msg.cui.wizard.vm.longhornLsiLogic	Windows 群集不支持 LSI Logic 控制器。要创建与 Windows 群集兼容的虚拟机，请改为选择 LSI Logic SAS 控制器。
+msg.cui.wizard.vm.noLSIDriver	“%s”的安装程序可能未包含 LSI Logic 控制器的驱动程序。您可能需要下载驱动程序或选择 BusLogic 控制器。
+msg.cui.wizard.vm.noLSISASDriverUrlCaptionLSI20320R	转到 LSI Logic 网站并搜索 LSI20320-R SCSI 控制器
+msg.cui.wizard.vm.noLSISASDriver	“%s”的安装程序可能未包含 LSI Logic SAS 控制器的驱动程序。您可能需要下载驱动程序或选择 LSI Logic 控制器。
+msg.cui.wizard.vm.noLSISASDriverUrlCaptionLSISAS1068	转到 LSI Logic 网站并搜索 LSISAS1068 SCSI 控制器
+msg.cui.wizard.vm.error.pathExists	无法创建虚拟机：指定的路径已存在
+msg.cui.wizard.diskCapacity.preallocatedTypical	虚拟机的硬盘存储在主机计算机物理磁盘上的一个或多个文件中。这些文件将立即创建，并且大小永远不会增长。
+msg.cui.wizard.diskCapacity.sparseTypical	虚拟机的硬盘存储在主机计算机物理磁盘上的一个或多个文件中。这些文件起初很小，随着您向虚拟机中添加应用程序、文件和数据而变大。
+msg.cui.wizard.diskCapacity.allocateDescription	分配全部容量可以提高性能，但需要现在就有全部物理磁盘空间可用。如果现在不分配全部空间，虚拟磁盘将从小处开始，并随着您添加数据而增长。
+msg.cui.wizard.diskCapacity.splitDescription	拆分磁盘可以更轻松地将虚拟机移动到其他计算机，但对非常大的磁盘可能会降低性能。
+msg.cui.wizard.encryption.fullEncryptionDescription	此虚拟机的所有文件(.vmdk、.vmx 等)(_A)
+msg.cui.wizard.encryption.partialEncryptionDescription	仅支持虚拟 TPM 所需的文件(.nvram、.vmss、.vmem、.vmx、.vmsn)(_O)
+msg.cui.wizard.encryption.encryptionPageHeader	加密密码
+msg.cui.wizard.disk.physicalWarning	访问原始磁盘可能导致数据丢失或无法启动，特别是当原始磁盘分区用作启动设备时。\n\n有关详细信息，请参阅产品手册中关于使用物理磁盘的章节。
+msg.cui.wizard.disk.noctlrs	此虚拟机中没有更多可用的 IDE、SCSI、SATA 或 NVMe 设备。要创建新磁盘，请先移除其中一个现有磁盘设备。
+msg.cui.wizard.disk.noidectlrsleft	此虚拟机中没有更多可用的 IDE 设备。要创建 IDE 磁盘，请先移除一个或多个 IDE 设备。
+msg.cui.wizard.disk.noscsictlrs	此虚拟机中没有更多可用的 SCSI 设备。要创建 SCSI 磁盘，请先移除一个或多个 SCSI 设备。
+msg.cui.wizard.disk.nosatactlrs	此虚拟机中没有更多可用的 SATA 设备。要创建 SATA 磁盘，请先移除一个或多个 SATA 设备。
+msg.cui.wizard.disk.nonvmectlrs	此虚拟机中没有更多可用的 NVMe 设备。要创建 NVMe 磁盘，请先移除一个或多个 NVMe 设备。

@@ -1,0 +1,88 @@
+msg.netcfg.linux.addNetwork.title	添加虚拟网络
+msg.netcfg.linux.addNetwork.name	网络名称(_M)：
+msg.netcfg.linux.addNetwork.vmnet	vmnet
+msg.netcfg.linux.addNetwork.type	类型：
+msg.netcfg.linux.addNetwork.bridged.description	虚拟机直接连接到您的外部网络
+msg.netcfg.linux.addNetwork.bridged.button	桥接(_B)
+msg.netcfg.linux.addNetwork.nat.description	虚拟机共享您计算机的 IP 地址
+msg.netcfg.linux.addNetwork.nat.button	NAT(_N)
+msg.netcfg.linux.addNetwork.hostonly.description	虚拟机与您的计算机位于专用网络中
+msg.netcfg.linux.addNetwork.hostonly.button	仅主机(_O)
+msg.netcfg.linux.autoBridge.selectOne	必须至少选择一个要自动桥接的主机网络适配器。
+msg.netcfg.linux.autoBridge.otherNetwork	（桥接到 %s）
+msg.netcfg.linux.autoBridge.title	自动桥接设置
+msg.netcfg.linux.autoBridge.listLabel	自动桥接到以下主机网络适配器之一：
+msg.netcfg.linux.mapPortDlg.title	映射传入端口
+msg.netcfg.linux.mapPortDlg.hostPort	主机端口(_H)：
+msg.netcfg.linux.mapPortDlg.type	类型：
+msg.netcfg.linux.mapPortDlg.tcp	TCP(_P)
+msg.netcfg.linux.mapPortDlg.udp	UDP(_U)
+msg.netcfg.linux.mapPortDlg.vmIPAddress	虚拟机 IP 地址(_A)：
+msg.netcfg.linux.mapPortDlg.vmPort	虚拟机端口(_P)：
+msg.netcfg.linux.mapPortDlg.description	描述(_D)：
+msg.netcfg.linux.dialog.save	保存
+msg.netcfg.linux.dialog.cancel	取消
+msg.netcfg.linux.natSettings.addPortForward	添加(_A)
+msg.netcfg.linux.natSettings.removePortForward	移除(_R)
+msg.netcfg.linux.natSettings.editPortForward	编辑(_E)
+msg.netcfg.linux.natSettings.title	NAT 设置
+msg.netcfg.linux.natSettings.network	网络：
+msg.netcfg.linux.natSettings.subnetIP	子网 IP：
+msg.netcfg.linux.natSettings.subnetMask	子网掩码：
+msg.netcfg.linux.natSettings.gatewayIP	网关 IP：
+msg.netcfg.linux.natSettings.portForwarding	端口映射(_F)
+msg.netcfg.linux.natSettings.hostPort	主机端口
+msg.netcfg.linux.natSettings.guestPort	客户机端口
+msg.netcfg.linux.natSettings.portType	端口类型
+msg.netcfg.linux.natSettings.guestIPAddress	虚拟机 IP 地址
+msg.netcfg.linux.natSettings.description	说明
+msg.netcfg.linux.natSettings.advanced	高级
+msg.netcfg.linux.natSettings.activeFTP	允许主动 FTP(_T)
+msg.netcfg.linux.natSettings.anyOUID	允许任何组织唯一标识符(_O)
+msg.netcfg.linux.natSettings.udpTimeout	UDP 超时（秒）(_U)：
+msg.netcfg.linux.natSettings.configPort	配置端口(_C)：
+msg.netcfg.linux.natSettings.enableIPv6	启用 IPv6 NAT(_E)
+msg.netcfg.linux.natSettings.IPv6Prefix	IPv6 前缀(_6)：
+msg.netcfg.linux.dialog.title	虚拟网络编辑器
+msg.netcfg.linux.netlist.name	名称
+msg.netcfg.linux.netlist.type	类型
+msg.netcfg.linux.netlist.externalConnection	外部连接
+msg.netcfg.linux.netlist.hostConnection	主机连接
+msg.netcfg.linux.netlist.dhcp	DHCP
+msg.netcfg.linux.netlist.subnetAddr	子网 IP 地址
+msg.netcfg.linux.netlist.mtu	MTU
+msg.netcfg.linux.dialog.bridged	桥接（将虚拟机直接连接到外部网络）(_B)
+msg.netcfg.linux.dialog.bridgedTo	桥接到(_T)：
+msg.netcfg.linux.dialog.nat	NAT（与虚拟机共享主机的 IP 地址）(_N)
+msg.netcfg.linux.dialog.hostonly	仅主机（在专用网络中内部连接虚拟机）(_O)
+msg.netcfg.linux.dialog.dhcp	使用本地 DHCP 服务向虚拟机分配 IP 地址(_D)
+msg.netcfg.linux.dialog.blankHostAdapter	将主机虚拟适配器连接到此网络(_V)
+msg.netcfg.linux.dialog.subnet	子网 IP(_I)：
+msg.netcfg.linux.dialog.mask	子网掩码：
+msg.netcfg.linux.dialog.mask.leaveBlank	留空以自动选择未使用的子网 IP。
+msg.netcfg.linux.dialog.mtu	MTU <span foreground="red">*</span>：
+msg.netcfg.linux.dialog.mtu.description	MTU 值必须介于 %d 和 %d 之间
+msg.netcfg.linux.dialog.help	帮助
+msg.netcfg.linux.bridge.autoBridgeVmnet0Only	（仅 vmnet0）
+msg.netcfg.linux.bridge.otherNetwork	（桥接到 %s）
+msg.netcfg.linux.netlist.notApplicable	―
+msg.netcfg.linux.netlist.none	无
+msg.netcfg.linux.dialog.hostAdapter	将主机虚拟适配器 (%s) 连接到此网络
+msg.netcfg.linux.netlist.type.bridged	桥接
+msg.netcfg.linux.netlist.bridged.automatic	自动桥接
+msg.netcfg.linux.netlist.dhcp.yes	是
+msg.netcfg.linux.netlist.dhcp.no	否
+msg.netcfg.linux.netlist.subnetAuto	自动检测
+msg.netcfg.linux.netlist.type.nat	NAT
+msg.netcfg.linux.netlist.externalConnection.nat	NAT
+msg.netcfg.linux.netlist.type.hostonly	仅主机
+msg.netcfg.linux.dialog.autoBridgeCombo	自动
+msg.netcfg.linux.dialog.add	添加网络(_A)...
+msg.netcfg.linux.dialog.remove	移除网络(_R)
+msg.netcfg.linux.dialog.autoBridgeSettings	自动设置(_U)...
+msg.netcfg.linux.dialog.natSettings	NAT 设置(_T)...
+msg.netcfg.linux.mtu.outofrange.format	vmnet%d：MTU 值无效。必须介于 %d 和 %d 之间。
+msg.netcfg.linux.ipBlankFields.format	vmnet%d：子网 IP 不得包含空字段。
+msg.netcfg.linux.mask.error.format	vmnet%d：%s
+msg.netcfg.linux.IPrepeat.format	vmnet%d：所有子网 IP 必须唯一。
+msg.netcfg.linux.error	错误

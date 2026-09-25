@@ -1,0 +1,181 @@
+msg.player.linux.vm.action.sendCtrlAltDel	发送 Ctrl+Alt+Del(_C)
+msg.player.linux.createNewVM.description	创建新的虚拟机，随后将其添加到库的顶部。
+msg.player.linux.createNewVM.welcome_label	创建新虚拟机(_N)
+msg.player.linux.createNewVM.toolbar_label	创建新虚拟机(_C)
+msg.player.linux.openAnExistingVM.description	打开现有的虚拟机，随后将其添加到库的顶部。
+msg.player.linux.openAnExistingVM.welcome_label	打开虚拟机(_O)
+msg.player.linux.openAnExistingVM.toolbar_label	打开虚拟机(_O)
+msg.player.linux.upgradeToWS.description	获取快照、虚拟网络管理等高级功能。
+msg.player.linux.upgradeToWS.welcome_label	升级到 VMware Workstation Pro(_W)
+msg.player.linux.downloadAppliance.descriptionFmt	从市场下载虚拟设备。随后可在 %s 中打开它。
+msg.player.linux.downloadAppliance.welcome_label	下载虚拟设备(_D)
+msg.player.linux.helpWelcome.description	查看联机帮助。
+msg.player.linux.helpWelcome.welcome_label	帮助(_E)
+msg.player.linux.browseForVM	浏览虚拟机(_B)
+msg.player.linux.action.vmRemove	从库中移除虚拟机(_R)
+msg.player.linux.action.vmRemove.popup	从库中移除虚拟机(_R)
+msg.player.linux.action.vmDelete	从磁盘删除虚拟机(_D)
+msg.player.linux.action.powerMenu	电源(_P)
+msg.player.linux.action.devices	可移动设备(_D)
+msg.player.linux.openVirtualMachine	打开虚拟机
+msg.player.linux.deleteFromListOrDisk	要从库中移除虚拟机“%s”，还是将其从磁盘删除？\n\n警告！从磁盘删除虚拟机无法撤销。
+msg.player.linux.missingVM.body	在 %s 找不到该虚拟机
+msg.player.linux.missingVM.header	找不到虚拟机
+msg.player.linux.library.home	主页
+msg.player.linux.welcome.top.headerFmt	欢迎使用 %s
+msg.player.linux.createNewVM.accessible	新建
+msg.player.linux.upgradeToWS.accessible	升级
+msg.player.linux.downloadAppliance.accessible	下载
+msg.player.linux.recentvmlist	最近使用的虚拟机
+msg.player.linux.powerOn	开机(_P)
+msg.player.linux.settings	编辑虚拟机设置(_E)
+msg.player.linux.settings.popup	虚拟机设置(_S)
+msg.player.linux.powerState.on	已开机
+msg.player.linux.powerState.off	已关机
+msg.player.linux.powerState.suspended	已挂起
+msg.player.linux.powerState.unknown	未知
+msg.player.linux.libraryDetails.state	状态：
+msg.player.linux.libraryDetails.os	操作系统：
+msg.player.linux.libraryDetails.lastUsed	版本：
+msg.player.linux.libraryDetails.ram	内存：
+msg.player.linux.actions.helpEnableAllHints	启用所有提示(_E)
+msg.player.linux.actions.helpShowEnabledHints	显示已启用的提示(_S)
+msg.player.linux.tryhelpForMoreInformation.STR	尝试使用 '%s --help' 获取更多信息。\n
+msg.player.linux.fileMenu	文件(_F)
+msg.player.linux.vncMenu	VNC 连接(_N)
+msg.player.linux.vmMenu	虚拟机(_V)
+msg.player.linux.action.suspend	挂起(_S)
+msg.player.linux.action.reset	重置(_R)
+msg.player.linux.action.powerOff	关机(_W)
+msg.player.linux.quit	退出(_Q)
+msg.player.linux.action.sendCtrlAltDel	发送 Ctrl+Alt+Del(_S)
+msg.player.linux.action.snapshotMenu	快照(_S)
+msg.player.linux.action.installTools	安装 VMware Tools(_T)...
+msg.player.linux.action.installvPrinter	安装虚拟打印机(_V)...
+msg.player.linux.action.vmrcPreferences	远程控制台首选项(_P)
+msg.player.linux.action.playerPreferences	Player 首选项(_P)
+msg.player.linux.action.helpMenu	帮助(_H)
+msg.player.linux.action.hintsMenu	提示(_N)
+msg.player.linux.action.help.tooltip	显示帮助
+msg.player.linux.action.help	帮助内容(_H)
+msg.player.linux.action.onlineCommunity	在线社区(_O)
+msg.player.linux.action.featureRequest	请求产品功能(_F)
+msg.player.linux.action.getSupport	获取支持(_S)
+msg.player.linux.action.softwareUpdates	软件更新(_U)
+msg.player.linux.action.messageLog	消息日志(_L)
+msg.player.linux.enterFullscreen	进入全屏(_F)
+msg.player.linux.action.aboutFmt	关于 %s(_A)
+msg.player.linux.action.reset.soft	重置客户机(_R)
+msg.player.linux.action.suspendAndQuit.soft	挂起客户机并退出(_S)
+msg.player.linux.action.powerOffAndQuit.soft	关闭客户机并退出(_W)
+msg.player.linux.theVirtualMachineIsPeriod	虚拟机正忙。
+msg.player.linux.virtualMachineLogColon	虚拟机日志文件：
+msg.player.linux.virtualMachineConfigurationColon	虚拟机位置：
+msg.player.linux.disconnectQuit	断开连接并退出(_Q)
+msg.player.linux.powerOffQuit	关机并退出(_Q)
+msg.player.linux.suspendQuit	挂起并退出(_Q)
+msg.player.linux.optionVirtualMachine	<虚拟机配置文件>
+msg.player.linux.vmrcURLHelp	其中 <虚拟机配置文件> 的语法为：\n    vmrc://[<user>|(<ticket-type>:<ticket>)@]<host>[:<port>]/?moid=<VM-id>\n    [&httpproxy=<proxy server>[:<proxy port>][&proxyuser=<proxy username>]\n    [&proxypasswd=<proxy auth password>]]\n或以下语法：\n    vmrc://settings\n\n    示例：vmrc://clone:ticket@vsphere-server/?moid=42\n    示例：vmrc://username@vsphere-server/?moid=79\n    示例：vmrc://<host>[:port]/?moid=1&httpproxy=<server>&proxyuser=<name>\n    示例：vmrc://settings\n\n提示：\n    <proxy username> 或 <proxy auth password> 中的 '&' 字符\n    应编码为 '%26'。\n\n以下参数可用于 MKS 连接：\n    &websocket=<WebSocket URL>\n    &mksticket=<ticket>\n    &thumbprint=<SSL thumbprint>\n    &path=<VM path>\n\n    示例：vmrc://vRAserver/?thumbprint=aa:bb:cc\n             &websocket=wss://host:443/ticket/123\n
+msg.player.linux.optVersion	显示程序版本
+msg.player.linux.optFullscreen	以全屏模式启动
+msg.player.linux.remoteVMMoidArg	moid
+msg.player.linux.remoteVMMoid	指示要连接的虚拟机的受管对象 id
+msg.player.linux.remoteUserArg	username
+msg.player.linux.remoteUserDesc	用于对远程主机进行身份验证的用户名
+msg.player.linux.remotePasswordArg	password
+msg.player.linux.remotePasswordDesc	用于对远程主机进行身份验证的密码
+msg.player.linux.datacenterArg	datacenter
+msg.player.linux.datacenterDesc	包含要打开的虚拟机的数据中心
+msg.player.linux.remoteHostArg	host:port
+msg.player.linux.remoteHostDesc	包含要访问的虚拟机的远程主机
+msg.player.linux.noHostOrVMRCURL	%s：需要主机或 VMRC URI 作为参数。\n
+msg.player.linux.invalidVmrcUrlFmt	%s：VMRC URL 无效：%s\n
+msg.player.linux.noHostFmt	%s：URL 中未指定主机：%s\n
+msg.player.linux.thumbprintMaxLength	%s：ssl 指纹参数超过最大长度。\n
+msg.player.linux.webSocketMaxLength	%s：websocket 参数超过最大长度。\n
+msg.player.linux.noThumbprintFmt	%s：此 URL 中未指定 SSL 指纹：%s\n
+msg.player.linux.noMKSPathFmt	%s：此 URL 中未指定 MKS 路径：%s\n
+msg.player.linux.noVMIDFmt	%s：此 URL 中未指定虚拟机 ID：%s\n
+msg.player.linux.illegalVMPathInVMRC	%s：不支持本地虚拟机。\n
+msg.player.linux.TooManyArgumentsOnly.STR	%s：参数过多；一次只能指定一个虚拟机。\n
+msg.player.linux.fullscreenRequiresVM	%s：全屏模式需要指定虚拟机。\n
+msg.player.linux.suspendTheVirtual.accel	挂起虚拟机(_S)
+msg.player.linux.powerOffTheVirtual.accel	关闭虚拟机(_P)
+msg.player.linux.leaveTheVirtualMachine.accel	让虚拟机继续运行(_L)
+msg.player.linux.updates.DownloadAll.accel	立即下载所有组件(_A)
+msg.player.linux.remoteVMConnProxy.component.settings	连接代理设置
+msg.player.linux.vmrcPreferences	远程控制台首选项
+msg.player.linux.playerPreferences	Player 首选项
+msg.player.linux.closeBehavior	关闭行为
+msg.player.linux.confirmBeforeClosing	关闭虚拟机前确认(_B)
+msg.player.linux.softwareUpdates	软件更新
+msg.player.linux.learnMore	了解详情
+msg.player.linux.remoteVMConnProxy	远程虚拟机的连接代理
+msg.player.linux.remoteVMConnProxy.component.description	使用 %s 打开远程虚拟机时，为连接使用已配置的代理设置。
+msg.player.linux.remoteVMConnProxy.component.accel	为远程虚拟机启用连接代理
+msg.player.linux.display	显示行为
+msg.player.linux.display.lblResize	虚拟机窗口调整大小：
+msg.player.linux.display.options.resize	调整虚拟机和窗口的大小
+msg.player.linux.display.options.stretch	在窗口中拉伸虚拟机
+msg.player.linux.remoteMKSHDAccel	图形
+msg.player.linux.remoteMKSHDAccel.component.accel	硬件加速
+msg.player.linux.userExperience	客户体验改善计划
+msg.player.linux.userExperience.sendData.desc	本产品参与 VMware 客户体验改善计划（“CEIP”）。CEIP 向 VMware 提供信息，使 VMware 得以改进产品和服务、解决问题，并就如何最好地部署和使用我们的产品向您提出建议。作为 CEIP 的一部分，VMware 会结合贵组织的 VMware 许可证密钥，定期收集有关贵组织使用 VMware 产品和服务的技术信息。这些信息不会识别任何个人的身份。有关 CEIP 的更多信息，请参阅信任与保障中心 <a href="%s">%s</a>。
+msg.player.linux.userExperience.sendData.accel	加入 VMware 客户体验改善计划(_I)
+msg.player.linux.remoteVMDlg.title	打开虚拟机
+msg.player.linux.serverCnxDlg.title	连接到服务器
+msg.player.linux.serverCnxDlg.vnc.title	连接到 VNC 服务器 - %s
+msg.player.linux.stickyShowHideControls	显示/隐藏工具栏
+msg.player.linux.releaseEsc	Esc
+msg.player.linux.toReleaseInputPress	要释放输入，请按 %s
+msg.player.linux.toGrabInputPressCtrlg	要捕获输入，请按 Ctrl+G
+msg.player.linux.stickyHideControls	隐藏工具栏
+msg.player.linux.stickyShowControls	始终显示工具栏
+msg.player.linux.welcome	虚拟机库
+msg.player.linux.noSignal.poweredOff	此虚拟机已关机或已挂起
+msg.player.linux.noSignal.reconnectLabel	等待连接...
+msg.player.linux.createNewVM.menu_label	创建新虚拟机(_N)
+msg.player.linux.action.suspend.soft	挂起客户机(_S)
+msg.player.linux.action.powerOff.soft	关闭客户机(_W)
+msg.player.linux.errorWhileChanging	更改电源状态时出错：%s
+msg.player.linux.powerOn.soft	打开客户机电源(_P)
+msg.player.linux.action.resetGuest	重置客户机(_R)
+msg.player.linux.action.messageLog.tooltip	显示虚拟机消息日志
+msg.player.linux.remDevice.nic.server.connected	(已连接到服务器上的 %s 网络)
+msg.player.linux.remDevice.nic.server.disconnected	(已断开连接)
+msg.player.linux.action.disconnect	断开连接(_D)
+msg.player.linux.action.connect	连接(_C)
+msg.player.linux.action.nicBridged	桥接(_B)
+msg.player.linux.action.nicNat	NAT(_N)
+msg.player.linux.action.nicHostOnly	仅主机(_H)
+msg.player.linux.action.nicOther	其他(_O)
+msg.player.linux.remDevice.formatDisconnectAutoDetect	断开 %s 的连接(自动检测)(_D)
+msg.player.linux.remDevice.formatDisconnect	断开 %s 的连接(_D)
+msg.player.linux.remDevice.disconnect	断开连接(_D)
+msg.player.linux.remDevice.connect	连接(_C)
+msg.player.linux.action.connectToHost	断开连接(连接到主机)(_D)
+msg.player.linux.action.disconnectFromHost	连接(与主机断开连接)(_C)
+msg.player.linux.removeSmartCard	移除智能卡(_S)
+msg.player.linux.removeSmartCard.tooltip	模拟智能卡移除事件
+msg.player.linux.insertSmartCard	插入智能卡(_S)
+msg.player.linux.insertSmartCard.tooltip	模拟智能卡插入事件
+msg.player.linux.showInStatusBar.tooltip	在状态栏中显示此设备图标
+msg.player.linux.showInStatusBar	在状态栏中显示(_S)
+msg.player.linux.minimizeTheWindow	将窗口最小化
+msg.player.linux.minimize.accel	最小化(_I)
+msg.player.linux.restore.tooltip	还原窗口
+msg.player.linux.restore	还原(_R)
+msg.player.linux.enterFullscreen.tooltip	进入全屏模式
+msg.player.linux.cycleMultiMon.tooltip	循环切换多显示器
+msg.player.linux.cycleMultiMon	循环切换多个显示器(_M)
+msg.player.linux.closeTheWindow	关闭窗口
+msg.player.linux.close.accel	关闭(_C)
+msg.player.linux.FORMAT.UINTSTR	%u%% - %s - %s
+msg.player.linux.title.secondary	(辅助) %s
+msg.player.linux.percent.UINT	%u%% - %s
+msg.player.linux.title.server	%s - %s - %s
+msg.player.linux.title.vm	%s - %s
+msg.player.linux.exitFullscreen	退出全屏(_F)
+msg.player.linux.exitFullscreen.tooltip	退出全屏模式
+msg.player.linux.dlgFirstTime.player.title	欢迎使用 VMware Player
+msg.player.linux.dlgFirstTime.vmrc.title	欢迎使用 VMware Remote Console
