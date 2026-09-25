@@ -1,4 +1,4 @@
-# VMware Workstation 中文语言包（zh_CN）
+# VMware Workstation for linux 中文语言包（zh_CN）
 
 > 一键汉化 Linux 版 VMware Workstation / Player 的图形界面，已翻译 **2822 条**界面文本，
 > 不修改任何程序文件、重启电脑依然生效、可随时一键还原英文。
