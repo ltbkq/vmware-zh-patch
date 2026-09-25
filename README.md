@@ -124,8 +124,8 @@ sudo localectl set-locale LANG=zh_CN.UTF-8
 ### 4.2 安装（一条命令）
 
 ```bash
-git clone https://github.com/ltbkq/vmware-zh-patch.git
-cd vmware-zh-patch
+git clone https://github.com/ltbkq/vmware-zh-patch-linux.git
+cd vmware-zh-patch-linux
 chmod +x install.sh uninstall.sh
 ./install.sh
 ```
@@ -219,7 +219,7 @@ macOS/Windows 版使用不同的资源与语言包体系。
 ## 六、仓库文件说明
 
 ```
-vmware-zh-patch/
+vmware-zh-patch-linux/
 ├── README.md          本说明文档
 ├── LICENSE            MIT 许可证（附版权声明）
 ├── install.sh         安装脚本（定位目录 → 备份 → 安装 → 校验）
